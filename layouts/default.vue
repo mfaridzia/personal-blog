@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container default">
     <MainHeader />
     <nuxt />
     <MainFooter />
@@ -11,7 +11,6 @@
 import MainHeader from '../components/Header/MainHeader.vue'
 import MainFooter from '../components/Footer/MainFooter.vue'
 export default {
-  name: 'DefaultLayout',
   components: {
     MainHeader,
     MainFooter
@@ -21,5 +20,4 @@ export default {
 
 
 <style scoped>
-
 </style>

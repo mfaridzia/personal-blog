@@ -1,7 +1,5 @@
 const pkg = require('./package')
 const path = require('path')
-const blogTitle = 'Muhammad Farid Zia'
-const productionUrl = 'https://muhfaridzia.netlify.com'
 
 module.exports = {
   mode: 'spa',
@@ -10,28 +8,16 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: `${blogTitle}`,
+    title: 'Muhammad Farid Zia',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description },
-
-      { name: 'theme-color', content: '#ff0000' },
-
-      { property: 'og:image', content: '/icon.png' },
-      { property: 'og:title', content: `${blogTitle}` },
-      { property: 'og:description', content: pkg.description },
-      { property: 'og:url', content: productionUrl },
-
-      { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:image:src', content: '/icon.png' },
-      { name: 'twitter:title', content: `${blogTitle}` },
-      { name: 'twitter:description', content: pkg.description },
-      { name: 'twitter:url', content: productionUrl }
+      { name: 'theme-color', content: '#ff0000' }
     ],
     link: [ 
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Source+Sans+Pro' }
     ]
   },
 
@@ -89,7 +75,7 @@ module.exports = {
       config.module.rules.push({
         test: /\.md$/,
         loader: 'frontmatter-markdown-loader',
-        include: path.resolve(__dirname, 'contents'),
+        include: path.resolve(__dirname, 'posts'),
         options: {
           vue: {
             root: 'content-markdown'
