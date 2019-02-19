@@ -1,4 +1,4 @@
-# blog-01
+# personal-blog
 
 > personal blog
 
