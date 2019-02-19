@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="header__avatar">
-      <img src="/avatar/avatar.png" alt="photo" class="header__photo">
+      <img src="/avatar/photo.png" alt="photo" class="header__photo">
     </div>
     <div class="header__profile">
       <div class="header__profile--text">
@@ -17,6 +17,7 @@
 </template>
 
 <script>
+/* eslint-disable */ 
 export default {
   name: 'MainHeader'
 }
@@ -35,7 +36,7 @@ export default {
 }
 .header__photo {
   border-radius: 50%;
-  width: 83px;
+  width: 80px;
   height: 80px;
   margin-top: 20px;
 }
@@ -46,4 +47,16 @@ export default {
 .header__profile--desc p {
   font-size: 16px;
 }
+
+/* @media screen and (min-width: 501px) and (max-width:1000px) {
+  .header__photo {
+    display: none; 
+  }
+} 
+
+@media screen and (min-width: 200px) and (max-width:500px) {
+  .header__photo {
+    display: none; 
+  }
+}  */
 </style>

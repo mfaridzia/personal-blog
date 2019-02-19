@@ -1,14 +1,15 @@
 <template>
   <footer class="footer">
-    Copyright © 2019 by
+    Copyright © 2019 - 
     <a
-      href="http://github.com/mfaridzia"
+      href="https://github.com/mfaridzia"
       target="_blank"
       rel="noopener">Muhammad Farid Zia</a>
   </footer>
 </template>
 
 <script>
+/* eslint-disable */ 
 export default {
   name: 'BaseFooter'
 }
@@ -18,9 +19,23 @@ export default {
 .footer {
   width: 100%;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 a {
   color: #000;
 }
+@media screen and (min-width: 501px) and (max-width:1000px) {
+  .footer {
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+  }
+} 
+@media screen and (min-width: 200px) and (max-width:500px) {
+  .footer {
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+  }
+} 
 </style>

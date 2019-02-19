@@ -1,11 +1,9 @@
 ---
-title: Hello World from my blog using Nuxt.js
+title: Lorem Ipsum Dolor Sit Amet Consectur Hello
 slug: hello-world
 date: '19 February, 2019'
 short_description: Hello world testing ngepost aja ini mah.
 ---
-
-<h1> Hello World from my blog using Nuxt.js </h1>
 
 lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit.
 

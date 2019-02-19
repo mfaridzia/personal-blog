@@ -16,7 +16,7 @@ module.exports = {
       { name: 'theme-color', content: '#ff0000' }
     ],
     link: [ 
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Source+Sans+Pro' }
     ]
   },
@@ -44,15 +44,11 @@ module.exports = {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
   ],
   /*
   ** Axios module configuration
   */
-  axios: {
-    // See https://github.com/nuxt-community/axios-module#options
-  },
 
   /*
   ** Build configuration
