@@ -1,7 +1,7 @@
 ---
 title: Apply What You Learn
 slug: apply-what-you-learn
-date: '18 February, 2019'
+date: '19 February, 2019'
 short_description: Setelah kita mempelajari suatu hal, maka langkah selanjutnya yang bisa dilakukan adalah belajar menerapkannya.
 ---
 

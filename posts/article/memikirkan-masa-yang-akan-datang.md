@@ -1,40 +1,40 @@
 ---
 title: Memikirkan Masa Yang Akan Datang
 slug: memikirkan-masa-yang-akan-datang
-date: '19 February, 2019'
-short_description: Kemalasan bisa membunuh produktivitas jika dibiarkan begitu saja dan tidak berusaha untuk dilawan.
+date: '18 February, 2019'
+short_description: Apa yang ada dalam benak dan pikiranmu ketika mendengar kata masa depan.
 ---
 
-Apa yang ada dalam benak dan pikiranmu ketika mendengar kata ‘masa depan’, ‘masa yang akan datang’ ?
-<br/>
+Apa yang ada dalam benak dan pikiranmu ketika mendengar kata <b> masa depan, </b> <b> masa yang akan datang </b> ?
+<br/> <br/>
 
-Kalo aku sendiri sih banyak banget yak, mulai dari gelisah mikiran gimana ya kira-kira nasibku nanti, kira-kira jodohku siapa ya nanti, kira-kira aku bakalan kerja dimana ya nanti, dan berbagai macam kira-kira lainya hehe.
-
-<br/>
-
-Wajar aja sih kita sebagai manusia itu kadang-kadang gelisah dan berpikir gimana masa depan kita nantinya, ya itu nggak ada salahnya sih mikirin masa depan. Asal jangan sampai mikirin masa depan malah buat kita jadi galau, sedih, stress ngk karuan aja sih.
+Kalo saya pribadi mungkin ada banyak, mulai dari gelisah mikiran gimana ya kira-kira nasibku nanti, kira-kira jodohku siapa ya nanti, kira-kira aku bakalan kerja dimana ya nanti, dan berbagai macam kira-kira lainnya hehe.
 
 <br/>
 
-Kadang-kadang aku juga suka sedih sih mikirin gimana nasibku nanti, tapi aku yakin Allah sudah menentukan gimana nasib kita nanti nya, jadi yang perlu buat aku lakuin saat ini ya hanya berdoa dan berusaha aja semampu yang aku bisa.
+Wajar kita sebagai manusia terkadang gelisah dan berpikir gimana masa depan kita nantinya, dan ya itu nggak ada salahnya mikirin masa depan, asal jangan sampai mikirin masa depan malah buat kita jadi galau, sedih, stress ngk karuan aja.
 
 <br/>
 
-Ngomong-ngomong aku mulai serius mikirin masa depan setelah aku masuk kuliah sih, kalo zaman-zaman masih smp mah nggak pernah mikirin namanya masa depan, pas masuk smk ada sih aku mikirn masa depan, tapi itupun cuma di akhir akhir sih pas udah mau lulus hehe.
+Terkadang saya juga suka galau mikirin hal-hal itu, tapi kita harus yakin Allah sudah menentukan gimana nasib kita nanti nya, jadi yang perlu kita lakuin saat ini ya hanya berdoa dan terus berusaha aja semampu yang kita bisa.
 
 <br/>
 
-Yah intinya semua orang pasti mikirn masa depan nya sih, entah itu mulai dari smp, sma atau pas udah kuliah, ya semua nya sah sah aja.
+Ngomong-ngomong saya mulai serius mikirin masa depan itu setelah masuk kuliah, kalo zaman-zaman masih SMP mah nggak pernah mikirin ginian, pas masa SMA sebenernya udah mulai mikirnnya, tapi ya itupun cuma di akhir akhir ketika mau lulus, kalo diawal-awal sih nggak.
 
 <br/>
 
-Tinggal gimana diri sendiri sekarang nyikapinya, apakah mau santa-santai ? atau mau berusaha dengan rajin ? yah semuanya balik lagi ke diri kita sendiri.
+Yah intinya semua orang pasti mikirn masa depan nya, entah itu mulai dari smp, sma atau pas udah kuliah, ya semua nya sah sah aja.
 
 <br/>
 
-Tapi ingat jangan lupa berdoa, dan bertawakal sama Allah, kalo Allah berkehendak mah semuanya bakalan jadi mudah, tapi sebaliknya jika Allah nggak berkehendak ya pasti bakalan sulit hehe.
+Tinggal gimana diri sendiri sekarang menyikapinya, apakah mau santa-santai ? atau mau berusaha semaksimal mungkin ? yah semuanya balik lagi ke diri kita sendiri.
 
 <br/>
 
-Tetap semangat, dan makasih buat yang udah mau meluangkan waktunya untuk baca coretan singkat ini.
+Tapi ingat jangan lupa berdoa, dan bertawakal sama Allah, kalo Allah berkehendak mah semuanya bakalan jadi mudah, tapi sebaliknya jika Allah nggak berkehendak ya pasti bakalan sulit.
+
+<br/>
+
+Sekian, semoga bisa bermanfaat, dan makasih buat yang udah mau meluangkan waktunya untuk baca coretan singkat ini.
 <br/> <br/>
