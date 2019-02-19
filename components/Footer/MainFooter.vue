@@ -1,6 +1,7 @@
 <template>
   <footer class="footer">
     Copyright © 2019 - 
+    Made with <span style="color: #e25555;">&#9829;</span> in Bandung, Indonesia by
     <a
       href="https://github.com/mfaridzia"
       target="_blank"
@@ -18,7 +19,7 @@ export default {
 <style scoped>
 .footer {
   width: 100%;
-  margin: 0 auto;
+  margin: 40px auto 0px auto;
   text-align: left;
 }
 a {

@@ -38,7 +38,7 @@ export default {
   width: 50vw;
   background: transparent;
   margin: 50px auto;
-  min-height: 100vh;
+  min-height: 55vh;
   display: flex;
   flex-direction: column;
 }
