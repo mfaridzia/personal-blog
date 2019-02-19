@@ -1,5 +1,6 @@
 /* eslint-disable */ 
 export default [
-  'first-post',
-  'hello-world'
+  'apply-what-you-learn',
+  'rasa-malas-mengganggu-produktivitas',
+  'memikirkan-masa-yang-akan-datang'
 ]
