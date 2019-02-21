@@ -8,7 +8,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Muhammad Farid Zia',
+    title: 'A blog by Muhammad Farid Zia',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -26,7 +26,8 @@ module.exports = {
   */
   loading: { 
     color: '#189ad3',
-    height: '5px' 
+    height: '5px',
+    continuous: true
   },
 
   /*
@@ -37,11 +38,10 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  // plugins: [
-  //   { src: '~/plugins/lazyload', ssr: false }
-  // ],
-
-  plugins: ['~/plugins/lazyload'],
+  // plugins: ['~/plugins/lazyload'],
+  plugins: [
+    { src: '~/plugins/lazyload', ssr: false }
+  ],
   /*
   ** Nuxt.js modules
   */
@@ -52,7 +52,7 @@ module.exports = {
   /*
   ** Axios module configuration
   */
-
+  
   /*
   ** Build configuration
   */

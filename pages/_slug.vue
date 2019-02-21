@@ -16,6 +16,7 @@
 import DynamicMarkdown from '~/components/Markdown/DynamicMarkdown.vue'
 
 export default {
+  name: 'DetailPage',
   async asyncData ({ params, store }) {
     const fileContent = await import(`~/posts/article/${params.slug}.md`)
     const data = fileContent.attributes
