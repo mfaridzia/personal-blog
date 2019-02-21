@@ -2,10 +2,10 @@
 title: Frontend Fatigue
 slug: frontend-fatigue
 date: '21 February, 2019'
-short_description: Mencoba untuk tetap survive dalam eksosistem pengembangan frontend
+short_description: Mencoba untuk tetap survive dalam ekosistem pengembangan frontend
 ---
 
-Beberapa tahun belakangan ini sepertinya perkembangan eksositem frontend development khususnya di JavaScript semakin kompleks aja, dimulai semenjak <i style='text-decoration: line-through;'> negara api menyerang </i> ekosistem JavaScript banyak digunakan.
+Beberapa tahun belakangan ini sepertinya perkembangan ekosistem frontend development khususnya di JavaScript semakin kompleks aja, dimulai semenjak <i style='text-decoration: line-through;'> negara api menyerang </i> JavaScript banyak digunakan.
 
 <br/>
 
