@@ -5,7 +5,7 @@ date: '21 February, 2019'
 short_description: Mencoba untuk tetap survive dalam eksosistem pengembangan frontend
 ---
 
-Beberapa tahun belakangan ini sepertinya perkembangan eksositem frontend development khususnya di JavaScript semakin kompleks aja, dimulai semenjak <i style='text-decoration: line-through;'> negara api menyerang </i> ekositem JavaScript banyak digunakan.
+Beberapa tahun belakangan ini sepertinya perkembangan eksositem frontend development khususnya di JavaScript semakin kompleks aja, dimulai semenjak <i style='text-decoration: line-through;'> negara api menyerang </i> ekosistem JavaScript banyak digunakan.
 
 <br/>
 
