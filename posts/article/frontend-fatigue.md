@@ -49,7 +49,7 @@ Terakhir, hidup kita bukan cuma tentang Teknologi, Frontend, JavaScript saja, ma
 
 <br/>
 
-Btw, yang saya bicarakan diatas kebanyakan pada ekoistem JavaScript nya ya, saya nggak nyinggung ekosistem di CSS macem Sass, PostCSS, Less, Grid, Flexbox, BEM atapun tentang performance, semantic, accessibility, Responsive Web Design/RWD, etc, karena fokus saya sebenernya disini adalah lebih ke JavaScript nya atau JavaScript Fatigue nya.
+Btw, yang saya bicarakan diatas kebanyakan pada ekosistem JavaScript nya ya, saya nggak nyinggung ekosistem di CSS macem Sass, PostCSS, Less, Grid, Flexbox, BEM atapun tentang performance, semantic, accessibility, Responsive Web Design/RWD, etc, karena fokus saya sebenernya disini adalah lebih ke JavaScript nya atau JavaScript Fatigue nya.
 
 <br/>
 

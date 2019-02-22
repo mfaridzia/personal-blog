@@ -1,5 +1,14 @@
 const pkg = require('./package')
 const path = require('path')
+const blogTitle = 'A blog by Muhammad Farid Zia'
+const blogUrl = 'https://muhfaridzia.netlify.com/'
+const icon = `${blogUrl}/favicon.png`
+
+import posts from './posts/index.js'
+const routes = posts.map(post => {
+  post = `/${post}`
+  return post
+})
 
 module.exports = {
   mode: 'spa',
@@ -8,12 +17,36 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'A blog by Muhammad Farid Zia',
+    title: `${blogTitle}`,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description },
-      { name: 'theme-color', content: '#ff0000' }
+      { name: 'author', content: 'Muhammad Farid Zia'},
+      { hid: 'keywords', name: 'keywords', content: 'muhfaridzia, mfaridzia, muhammad farid zia, frontend, frontend developer' },
+
+      { name: 'theme-color', content: '#189ad3;' },
+      { name: 'mobile-web-app-capable', content: 'yes' },
+      { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: `${blogTitle}` },
+
+      { hid: 'og:image', property: 'og:image', content: icon },
+      { hid: 'og:image:secure_url', property: 'og:image:secure_url', content: icon },
+      { hid: 'og:image:width', property: 'og:image:width', content: '512' },
+      { hid: 'og:image:height', property: 'og:image:height', content: '512' },
+      { hid: 'og:title', property: 'og:title', content: `${blogTitle}` },
+      { hid: 'og:description', property: 'og:description', content: pkg.description },
+      { hid: 'og:url', property: 'og:url', content: blogUrl },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Muhammad Farid Zia' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'profile:username', property: 'profile:muhfaridzia', content: 'muhfaridzia' },
+
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:creator', content: '@Muhfaridzia' },
+      { name: 'twitter:site', content: '@Muhfaridzia' },
+      { hid: 'twitter:image:src', name: 'twitter:image:src', content: icon },
+      { hid: 'twitter:title', name: 'twitter:title', content: `${blogTitle}` },
+      { hid: 'twitter:description', name: 'twitter:description', content: pkg.description },
+      { hid: 'twitter:url', name: 'twitter:url', content: blogUrl }
     ],
     link: [ 
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
@@ -52,6 +85,10 @@ module.exports = {
   /*
   ** Axios module configuration
   */
+
+  generate: {
+    routes
+  },
   
   /*
   ** Build configuration
