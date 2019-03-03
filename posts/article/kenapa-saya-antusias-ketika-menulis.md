@@ -38,7 +38,7 @@ Padahal belum dicoba, come on guys kamu cuma belum biasa aja, kalo udah biasa sa
 <h2> Melatih rasa kepedulian ke orang lain </h2>
 
 <p>
-Ya sama seperti kamu sedekah uang ke orang lain, sebenarnya kamu peduli ke meraka, nulis juga gitu cuma ya beda caranya aja, kalo nulis itu kita berbagi lewat tulisan yang udah kita tulis entah itu isinya tentang pengalaman ataupun pengetahuan.
+Ya sama seperti kamu sedekah uang ke orang lain, sebenarnya kamu peduli ke mereka, nulis juga gitu cuma ya beda caranya aja, kalo nulis itu kita berbagi lewat tulisan yang udah kita tulis entah itu isinya tentang pengalaman ataupun pengetahuan.
 </p>
 <br/> 
 <p> Saya semenjak suka nulis alhamdulillah, rasa ingin berbagi ke orang lain semakin tinggi, beda dengan dulu sebelum suka-sukanya nulis, ya acuh tak acuh, nggak peduli mau orang lain gimana, yang cuma mikirin diri sendiri aja.
