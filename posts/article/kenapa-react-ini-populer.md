@@ -5,7 +5,7 @@ date: '6 Maret, 2019'
 short_description: Kenapa React ini populer dikalangan Frontend Developer
 ---
 
-Siapa yang nggak tau React.js, sebuah library keren untuk membuat User Interface pada sebuah web, saya pikir hampir semua frontend developer di bumi ini tau siapa si React.js ini (udah kek manusia aja ya ehehe).
+Siapa yang nggak tau React.js, sebuah library keren untuk membuat design User Interface yang interaktif pada sebuah web, saya pikir hampir semua frontend developer di bumi ini tau siapa si React.js ini (udah kek manusia aja ya ehehe).
 <br/><br/>
 
 Tapi ya itu saya masih penasaran kenapa React ini begitu populer sekali di kalangan para pengembang frontend, maka dari itu lah saya nulis artikel singkat ini. Btw ini cuma pendapat saya aja ya, kalo temen-temen nggak setuju ya ndak masalah, karena semua orang kan bebas mengeluarkan pendapatnya ehhe.
