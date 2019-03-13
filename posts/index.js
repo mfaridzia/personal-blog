@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default [
-  'sebuah-tulisan',
+  'belajar-sendiri-ngarasa-kesulitan',
   'sikap-bodo-amat',
   'kenapa-react-ini-populer',
   'kenapa-saya-antusias-ketika-menulis',
