@@ -31,15 +31,18 @@ Tapi selain hal-hal diatas, saya juga ada beberapa saran buat yang ngerasa susah
 <br/><br/>
 
 <h2> Gabung di grup/komunitas online </h2>
-Yups dengan bergabung atau ikutan di komunitas online, ini bakalan buat kamu jadi nggak ngerasa sendiri lagi kalo belajar, jadi lumayan buat nambah semangat ketika belajar, disini kamu bisa nanya kalo lagi stuck, pusing, etc, btw jangan lupa juga bantu-bantu jawab pertanyaan orang lain kalo kamu ngerasa kamu tau jawabannya.
-<br/><br/>
+<p> Yups dengan bergabung atau ikutan di komunitas online, ini bakalan buat kamu jadi nggak ngerasa sendiri lagi kalo belajar, jadi lumayan buat nambah semangat ketika belajar, disini kamu bisa nanya kalo lagi stuck, pusing, etc, btw jangan lupa juga bantu-bantu jawab pertanyaan orang lain kalo kamu ngerasa kamu tau jawabannya.
+</p>
+<br/>
 
 Untuk grup nya sendiri bisa di Facebook, StackOverflow, Telegram, Slack, etc.
 <br/><br/>
 
 <h2> Belajar dari kursus online </h2>
+<p>
 Nah ini juga lumayan bahkan membantu banget sih menurut saya, apalagi yang emang ngerasa sulit banget belajar sendiri tanpa ada guide yang jelas. 
-<br/><br/>
+</p>
+<br/>
 
 Jadi kenapa saya ngerekomendasiin kamu buat ikutan kursus online, karena belajar sendiri itu butuh panduan yang jelas, jadi dengan ikut kursus online lumayan membantu supaya nggak salah arah ketika belajar.
 <br/><br/>
@@ -48,8 +51,9 @@ Untuk kursus online nya sendiri ada banyak pilihannya, bisa belajar dari udemy, 
 <br/><br/>
 
 <h2> Tanya orang secara langsung </h2>
-Kalo kamu udah ngerasa stuck banget di suatu problem, udah tanya di grup belum ada yg jawab, maka kamu bisa tanya atau minta bantuan ke orang yg kamu rasa jago di bidang itu.
-<br/><br/>
+<p>Kalo kamu udah ngerasa stuck banget di suatu problem, udah tanya di grup belum ada yg jawab, maka kamu bisa tanya atau minta bantuan ke orang yg kamu rasa jago di bidang itu.
+<p/>
+<br/>
 
 Asal kamu tanyanya jelas dan sopan InsaAllah, orangnya mau ngebantu, so jangan ragu buat bertanya langsung.
 <br/><br/>
