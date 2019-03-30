@@ -11,7 +11,7 @@ Tulisan ini berdasarkan pengalaman pribadi saya, yang sudah cukup lama mengamati
 Bodo amat ini kata-kata yang banyak orang ucapkan jadi sudah tidak asing lagi di telinga kita semua, di negara yg kita cintai ini, nggak sulit untuk menemukan orang-orang yang punya sikap bodo amat, entah itu terhadap lingkungan di sekitarnya, di sekolah maupun di kampus.
 <br/><br/>
 
-Ok karena saya merupakan mahasiwa yang lugu cupu dan biasa biasa saja dan tak pandai bergaul alias introvert, maka saya ambil contoh di lingkungan kampus saja yang tidak jauh dari kehidupan para mahasiswa ambis.
+Ok karena saya merupakan mahasiswa yang lugu cupu dan biasa biasa saja dan tak pandai bergaul alias introvert, maka saya ambil contoh di lingkungan kampus saja yang tidak jauh dari kehidupan para mahasiswa ambis.
 <br/><br/>
 
 Di dalam dunia perkuliahan yang sangat padat merayap ini, saya belajar dan mengamati bahwa sebagian besar mahasiswa sangat individualisme atau boleh dibilang tak peduli atau bodo amat dengan yang lainnya, yang ada dalam pikirannya mungkin seperti ini "yang penting gw bisa ngerjain tugas dan tugasnya jadi, dapet nilai bagus, yang lain mah bodo amat mau bisa atau nggak, ngerjain dan ngumpulin apa nggak", yeah itu fakta bro.
