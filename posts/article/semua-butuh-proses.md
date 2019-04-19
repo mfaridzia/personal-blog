@@ -1,17 +1,17 @@
 ---
 title: Semua butuh proses, jangan hanya mau instan saja
 slug: semua-butuh-proses
-date: '7 Maret, 2019'
+date: '19 April, 2019'
 short_description: Semua butuh proses, jangan berharap yg instan saja
 ---
 
 Sudah agak lama rasanya saya nggak nulis, karena kesibukan di dunia nyata dan juga karena nggak tau mau nulis apaan hehe.
 <br/><br/>
 
-Jadi malam ini saya mau nulis dikit aja sih, lumayan buat bikin github ada ijo ijo nya xd hahah,canda aja deng.
+Jadi malam ini saya mau nulis dikit aja sih, lumayan buat bikin github ada ijo ijo nya haha, canda aja deng xd.
 <br/><br/>
 
-Sesuai dengan judul nya saya mau bahas tentang sebuah proses, yoi proses dalam belajar tentunya,berdasarkan apa yang sudah saya amati selama beberapa tahun ini.
+Sesuai dengan judul nya saya mau bahas tentang sebuah proses, yoi proses dalam belajar tentunya ya, berdasarkan apa yang sudah saya amati selama beberapa tahun ini.
 <br/><br/>
 
 Kesalahan yang sering saya dan mungkin teman-teman lakukan ketika baru belajar sesuatu adalah "Tidak Sabaran".
