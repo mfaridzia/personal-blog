@@ -1,5 +1,6 @@
 /* eslint-disable */
 export default [
+  'semua-butuh-proses',
   'hanya-karena-mencari-75-persen',
   'belajar-sendiri-ngarasa-kesulitan',
   'sikap-bodo-amat',
