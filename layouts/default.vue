@@ -52,7 +52,9 @@ export default {
 }
 
 .navigation__condition {
-  margin-left: 35px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .navigation__condition .nav__show,
 .navigation__condition .nav__hide { 
