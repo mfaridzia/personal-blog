@@ -1,6 +1,6 @@
 <template>
-  <div class="container default">
-    <!-- Test menu navigasi, masih belum fix -->
+  <div>
+     <!-- Test menu navigasi, masih belum fix -->
     <div class="navigation"> 
       <div class="navigation__condition">
         <button class="nav__show" v-if="isShow == false" @click="isShow = true"> Show Menu </button>
@@ -12,7 +12,10 @@
         <li> <nuxt-link to="/about"> About </nuxt-link> </li>
       </ul>
     </div>
-    <nuxt />
+
+    <div class="container default">
+      <nuxt />
+    </div>
   </div>
 </template>
 
@@ -21,7 +24,7 @@
 export default {
   data() {
     return {
-      isShow: false
+      isShow: true
     }
   }
 }
@@ -30,13 +33,18 @@ export default {
 <style>
 .navigation {
   width: 100%;
-  background: transparent;
+  background: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 .navigation ul {
   list-style: none;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .navigation ul li {
   margin: 10px 10px;
@@ -44,30 +52,33 @@ export default {
 .navigation ul li a {
   color: #000;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 14px;
   text-transform: capitalize;
+  font-family: Montserrat;
 }
 .navigation ul li a:hover {
   color: #189ad3;
 }
 
-.navigation__condition {
+/* .navigation__condition {
   margin: 0 auto;
   display: flex;
-  justify-content: center;
-}
+  justify-content: flex-start;
+} */
 .navigation__condition .nav__show,
 .navigation__condition .nav__hide { 
   border: none;
-  padding: 10px 20px;
-  border-radius: 3px;
+  background-color: #189ad3;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 0px;
   font-weight: bold;
   cursor: pointer;
   outline: none;
 }
 .navigation__condition .nav__show:hover,
 .navigation__condition .nav__hide:hover { 
-  background-color: #189ad3;
+  background-color: #1ca8e4;
   color: #fff; 
 }
 </style>

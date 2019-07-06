@@ -52,7 +52,7 @@ export default {
   background: transparent;
   box-sizing: border-box;
   padding: 20px;
-  margin: 80px auto;
+  margin: 110px auto;
 }
 .home__hello {
   font-size: 40px;
@@ -83,7 +83,7 @@ export default {
   .container__home {
     width: 80vw;
     background: transparent;
-    margin: 0px 10px 0px 30px;
+    margin: 40px 10px 0px 30px;
   }
   .home__hello, .home__name, .home__descjob, .home__description {
     margin-left: 0px;

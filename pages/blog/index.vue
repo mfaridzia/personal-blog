@@ -49,7 +49,7 @@ export default {
 .container {
   width: 50vw;
   background: transparent;
-  margin: 20px auto;
+  margin: 40px auto;
   min-height: 55vh;
   display: flex;
   flex-direction: column;

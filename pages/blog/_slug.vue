@@ -10,7 +10,7 @@
         :static-render-funcs="staticRenderFuncs"
       />
 
-      <nuxt-link to="/blog" class="blog-post"> -> Back to Home </nuxt-link> <br/><br/> 
+      <!-- <nuxt-link to="/blog" class="blog-post"> -> Back to Home </nuxt-link> <br/><br/>  -->
     </div>
 
     <MainFooter />
@@ -71,11 +71,12 @@ export default {
 <style scoped>
 .slug {
   width: 50vw;
-  margin: 0 auto;
+  margin: 40px auto;
+  background: transparent;
 }
 div {
   margin-top: 35px;
-  margin-left: 20px;
+  margin-left: 12px;
   min-height: 60vh;
 }
 .blog-post {
@@ -83,10 +84,16 @@ div {
   text-decoration: none;
 }
 .content__title {
-  margin: 10px 0px -20px 0px;
+  margin: 10px 0px -20px -12px;
+}
+.content__date {
+  margin-left: -10px;
+  text-align: left;
+  font-size: 12px;
 }
 .footer {
-  margin-left: 20px !important;
+  margin-left: 0px !important;
+  margin-bottom: -50px !important;
 }
 
 @media screen and (min-width: 501px) and (max-width:1000px) {
@@ -100,6 +107,9 @@ div {
   .content__title {
     font-size: 25px;
   }
+  .footer {
+    margin-bottom: -20px !important;
+  }
 } 
 @media screen and (min-width: 200px) and (max-width:500px) {
   .slug {
@@ -111,6 +121,9 @@ div {
   }
   .content__title {
     font-size: 25px;
+  }
+  .footer {
+    margin-bottom: -20px !important;
   }
 } 
 </style>
