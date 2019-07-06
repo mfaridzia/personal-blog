@@ -7,13 +7,10 @@
     </h2>
 
     <p class="home__description">
-      An Informatics Engineering student who is interested in new technology and now 
-      focuses on software development especially in web technologies. 
-      You can find me on 
-      <a href="https://github.com/mfaridzia" target="_blank"> Github </a>,
-      <a href="https://twitter.com/Muhfaridzia" target="_blank"> Twitter </a>,
-      <a href="https://www.facebook.com/MuhFaridZia" target="_blank"> Facebook </a>
-      and
+      Every day most spend time with things related to frontend. You can find me on 
+      <a href="https://github.com/mfaridzia" target="_blank"> Github, </a>
+      <a href="https://twitter.com/Muhfaridzia" target="_blank"> Twitter, </a>
+      <a href="https://www.facebook.com/MuhFaridZia" target="_blank"> Facebook </a> and
       <a href="https://www.linkedin.com/in/muhfaridzia/" target="_blank"> LinkedIn </a>
     </p>
   </div>
@@ -52,7 +49,7 @@ export default {
   background: transparent;
   box-sizing: border-box;
   padding: 20px;
-  margin: 110px auto;
+  margin: 100px auto;
 }
 .home__hello {
   font-size: 40px;
@@ -83,7 +80,7 @@ export default {
   .container__home {
     width: 80vw;
     background: transparent;
-    margin: 40px 10px 0px 30px;
+    margin: 100px 10px 0px 30px;
   }
   .home__hello, .home__name, .home__descjob, .home__description {
     margin-left: 0px;
@@ -99,7 +96,7 @@ export default {
     font-size: 20px;
   }
   .home__description {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 </style>

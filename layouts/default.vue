@@ -3,8 +3,8 @@
      <!-- Test menu navigasi, masih belum fix -->
     <div class="navigation"> 
       <div class="navigation__condition">
-        <button class="nav__show" v-if="isShow == false" @click="isShow = true"> Show Menu </button>
-        <button class="nav__hide" v-else  @click="isShow = false"> Hide Menu </button>
+        <button class="nav__show" v-if="isShow == false" @click="isShow = true"> ☰ Show Menu </button>
+        <button class="nav__hide" v-else  @click="isShow = false"> ☰ Hide Menu </button>
       </div>
       <ul class="navigation__menu" v-if="isShow == true">
         <li> <nuxt-link to="/"> Home </nuxt-link> </li>
@@ -68,17 +68,17 @@ export default {
 .navigation__condition .nav__show,
 .navigation__condition .nav__hide { 
   border: none;
-  background-color: #189ad3;
+  background-color: #000;
   color: #fff;
   padding: 12px 20px;
   border-radius: 0px;
-  font-weight: bold;
+  font-weight: normal;
   cursor: pointer;
   outline: none;
 }
 .navigation__condition .nav__show:hover,
 .navigation__condition .nav__hide:hover { 
-  background-color: #1ca8e4;
+  background-color: #202020;
   color: #fff; 
 }
 </style>

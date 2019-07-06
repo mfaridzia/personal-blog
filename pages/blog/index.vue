@@ -65,7 +65,8 @@ export default {
 }
 .post__title {
   text-decoration: none;
-  color: #189ad3;
+  /* color: #189ad3; */
+  color: #000;
 }
 .post__title h1 {
   margin: 10px 0px 10px 0px;
