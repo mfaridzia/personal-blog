@@ -17,6 +17,11 @@ p {
   line-height: 33px;
    font-size: 1.1rem;
    font-weight: 100;
+   margin-left: -20px;
+}
+
+h2, h3, h4 {
+  margin-left: -20px;
 }
 
 @media screen and (min-width: 501px) and (max-width:1000px) {

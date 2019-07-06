@@ -1,84 +1,105 @@
 <template>
-  <div class="container">
-    <div v-for="post in posts" :key="post.slug">
-      <div class="post__article">
-        <span class="post__date"> {{ post.date }} </span>
-        <nuxt-link :to="`/${post.slug}`" class="post__title"> <h1> {{ post.title }} </h1> </nuxt-link>
-        <div class="post__desc">
-          <p> {{ post.short_description }} </p>
-        </div>
-      </div>
-    </div>
+  <div class="container__home">
+    <p class="home__hello"> Hello World. </p>
+    <h1 class="home__name"> I'm Muhammad Farid Zia  </h1>
+    <h2 class="home__descjob"> 
+       Frontend Developer who like to write about personal opinions
+    </h2>
+
+    <p class="home__description">
+      An Informatics Engineering student who is interested in new technology and now 
+      focuses on software development especially in web technologies. 
+      You can find me on 
+      <a href="https://github.com/mfaridzia" target="_blank"> Github </a>,
+      <a href="https://twitter.com/Muhfaridzia" target="_blank"> Twitter </a>,
+      <a href="https://www.facebook.com/MuhFaridZia" target="_blank"> Facebook </a>
+      and
+      <a href="https://www.linkedin.com/in/muhfaridzia/" target="_blank"> LinkedIn </a>
+    </p>
   </div>
 </template>
 
 <script>
 /* eslint-disable */ 
-import posts from '../posts/index.js'
 export default {
-  async asyncData ({ store }) {
-    async function asyncImport (slug) {
-      const articles = await import(`~/posts/article/${slug}.md`)
-      return articles.attributes
+  head () {
+    const title = "Muhammad Farid Zia"
+    const description = "Homepage, muhammad farid zia"
+    const url = "https://muhfaridzia.netlify.com/"
+    return {
+      title,
+      meta: [
+        { hid: 'description', name: 'description', content: description },
+        { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: title },
+        { hid: 'og:title', property: 'og:title', content: title },
+        { hid: 'og:description', property: 'og:description', content: description },
+        { hid: 'og:url', property: 'og:url', content: url },
+        { hid: 'og:type', property: 'og:type', content: 'article' },
+        { hid: 'article:section', property: 'article:section', content: 'Life, Technology, Frontend' },
+        { hid: 'twitter:title', name: 'twitter:title', content: title },
+        { hid: 'twitter:description', name: 'twitter:description', content: description },
+        { hid: 'twitter:url', name: 'twitter:url', content: url }
+      ]
     }
-    return Promise.all(posts.map(post => asyncImport(post))).then((response) => {
-      return { posts: response }
-    })
-  }
+  },
 }
 </script>
 
-<style>
-* {
-  margin: 0px;
-  padding: 0px;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-.container {
+<style scoped>
+.container__home {
   width: 50vw;
+  height: auto;
   background: transparent;
-  margin: 50px auto;
-  min-height: 55vh;
-  display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 80px auto;
 }
-.post__article {
-  margin: 20px 0px;
+.home__hello {
+  font-size: 40px;
+  margin-bottom: 10px;
 }
-.post__article h1 {
-  margin-top: 5px;
+.home__name {
+  font-size: 50px;
+  letter-spacing: 0px;
 }
-.post__title {
-  text-decoration: none;
-  color: #189ad3;
-}
-.post__title h1 {
-  margin: 10px 0px 10px 0px;
-  font-size: 1.7rem;
-  font-weight: bolder;
-}
-.post__desc p {
-  font-size: 18px;
+.home__descjob {
+  font-size: 30px;
   font-weight: normal;
+  margin-bottom: 30px;
+}
+.home__description {
+  line-height: 23px;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.home__description a {
+  color: #000;
+}
+.home__description a:hover {
+  color: rgb(92, 92, 92);
 }
 
-@media screen and (min-width: 501px) and (max-width:1000px) {
-  .container {
+@media screen and (max-width: 500px) {
+  .container__home {
+    width: 80vw;
     background: transparent;
-    width: 90vw;
-  }  
-  .post__title h1 {
-    font-size: 1.5rem;
+    margin: 0px 10px 0px 30px;
   }
-} 
-
-@media screen and (min-width: 200px) and (max-width:500px) {
-  .container {
-    background: transparent;
-    width: 90vw;
-  }  
-  .post__title h1 {
-    font-size: 1.5rem;
+  .home__hello, .home__name, .home__descjob, .home__description {
+    margin-left: 0px;
+    margin-right: 0px;
   }
-} 
+  .home__hello {
+    font-size: 23px;
+  }
+  .home__name {
+    font-size: 30px;
+  }
+  .home__descjob {
+    font-size: 20px;
+  }
+  .home__description {
+    font-size: 17px;
+  }
+}
 </style>

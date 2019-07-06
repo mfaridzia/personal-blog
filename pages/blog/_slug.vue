@@ -1,13 +1,19 @@
 <template>
   <div class="slug">
     <div class="content">
-      <span class="content__date"> {{ date }}  </span>
+      <span class="content__date" style="color: #777;"> 
+        Written by Muhammad Farid Zia on {{ date }}  
+      </span>
       <h1 class="content__title"> {{ title }} </h1> 
       <DynamicMarkdown 
         :render-func="renderFunc"
         :static-render-funcs="staticRenderFuncs"
       />
+
+      <nuxt-link to="/blog" class="blog-post"> -> Back to Home </nuxt-link> <br/><br/> 
     </div>
+
+    <MainFooter />
   </div>
 </template>
 
@@ -56,21 +62,38 @@ export default {
     }
   },
   components: {
-    DynamicMarkdown
+    DynamicMarkdown,
+    MainFooter: () => import("@/components/Footer/MainFooter.vue")
   }
 }
 </script>
 
 <style scoped>
+.slug {
+  width: 50vw;
+  margin: 0 auto;
+}
 div {
   margin-top: 35px;
+  margin-left: 20px;
   min-height: 60vh;
+}
+.blog-post {
+  font-size: 30px;
+  text-decoration: none;
 }
 .content__title {
   margin: 10px 0px -20px 0px;
 }
+.footer {
+  margin-left: 20px !important;
+}
 
 @media screen and (min-width: 501px) and (max-width:1000px) {
+  .slug {
+    width: 80vw;
+    margin: 0 auto;
+  }
   p {
     font-size: 16px;
   }
@@ -79,6 +102,10 @@ div {
   }
 } 
 @media screen and (min-width: 200px) and (max-width:500px) {
+  .slug {
+    width: 80vw;
+    margin: 0 auto;
+  }
   p {
     font-size: 16px;
   }

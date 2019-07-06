@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="header__avatar">
-      <img src="/avatar/photo.png" alt="photo" class="header__photo">
+      <img src="/avatar/photo.jpg" alt="photo" class="header__photo">
     </div>
     <div class="header__profile">
       <div class="header__profile--text">
@@ -9,7 +9,7 @@
       </div>
       <div class="header__profile--desc">
         <p> 
-          Frontend Developer who like to write about personal opinions.
+          Frontend Developer who like to write about personal opinions
         </p>
       </div> 
     </div>
@@ -27,6 +27,8 @@ export default {
 .header {
   display: flex;
   flex-direction: row;
+  margin-left: 40px;
+  margin-top: 50px;
 }
 .header__profile {
   margin-top: 20px;
@@ -48,6 +50,17 @@ export default {
   font-size: 16px;
 }
 
+
+@media screen and (max-width: 380px) {
+  .header__profile--link h1 {
+    font-size: 18px;
+    margin-right: 40px;
+  }
+  .header__profile--desc p {
+    font-size: 14px;
+    margin-right: 40px;
+  }
+}
 /* @media screen and (min-width: 501px) and (max-width:1000px) {
   .header__photo {
     display: none; 

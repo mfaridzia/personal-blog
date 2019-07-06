@@ -19,24 +19,28 @@ export default {
 <style scoped>
 .footer {
   width: 100%;
-  margin: 40px auto 0px auto;
+  margin: 40px auto 30px 40px;
   text-align: left;
 }
 a {
   color: #000;
 }
-@media screen and (min-width: 501px) and (max-width:1000px) {
+@media screen and (min-width: 501px) and (max-width: 1000px) {
   .footer {
-    margin: 60px 0px 0px 0px;
-    text-align: center;
-    font-weight: bold;
+    width: 80%;
+    font-size: 12px;
   }
 } 
-@media screen and (min-width: 200px) and (max-width:500px) {
+@media screen and (min-width: 200px) and (max-width: 500px) {
   .footer {
-    margin: 60px 0px 0px 0px;
-    text-align: center;
-    font-weight: bold;
+    width: 80%;
+    font-size: 12px;
   }
 } 
+@media screen and (max-width: 380px) {
+  .footer {
+    width: 80%;
+    font-size: 12px;
+  }
+}
 </style>
