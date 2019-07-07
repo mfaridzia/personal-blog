@@ -3,8 +3,8 @@
      <!-- Test menu navigasi, masih belum fix -->
     <div class="navigation"> 
       <div class="navigation__condition">
-        <button class="nav__show" v-if="isShow == false" @click="isShow = true"> ☰ Show Menu </button>
-        <button class="nav__hide" v-else  @click="isShow = false"> ☰ Hide Menu </button>
+        <button class="nav__show" v-if="isShow == false" @click="isShow = true"> ☰ </button>
+        <button class="nav__hide" v-else  @click="isShow = false"> &#10005; </button>
       </div>
       <ul class="navigation__menu" v-if="isShow == true">
         <li> <nuxt-link to="/"> Home </nuxt-link> </li>
