@@ -10,7 +10,7 @@
         :static-render-funcs="staticRenderFuncs"
       />
 
-      <nuxt-link to="/blog" class="blog-post"> -> Back to All Articles </nuxt-link> <br/><br/> 
+      <nuxt-link to="/blog" class="blog-post"> Back to Home </nuxt-link> <br/><br/> 
     </div>
 
     <MainFooter />

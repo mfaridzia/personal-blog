@@ -1,37 +1,33 @@
 <template>
   <div class="container">
-    <div class="about">
-      <div class="about__photo">
-        <img src="/avatar/photo.jpg" alt="photo">
-      </div>
-      <h2> Hello, I'm Muhammad Farid Zia </h2>
+    <div class="now">
+      <p class="now__desc"> 
+        This page describes what I'm doing now, so you can know what I'm doing
+        without having to ask directly.
       <p>
-        <!-- An ordinary young man who has many dreams, a person who is very passionate about
-        software development, especially in the field of web technology such as JavaScript, 
-        Vue.js, React.js, Node.js and many more. -->
-
-        Very passionate about software development especially in the field of web technologies
-        such as JavaScript, Vue.js, React.js, Node.js and many more.
-      </p>
+      <br/>
+      
+      <h2> Living </h2>
+      <p> 
+        Bandung, West Java. Indonesia. 
+      </p> 
       <br/>
 
-      <p>
-        I am from Lombok, a beautiful little island, on this small island I spent my childhood,
-        before I moved to the kota kembang Bandung to continue studying there and now I study at
-        Telkom University, and major in Informatics Engineering.
-      </p>
+      <h2> Careers </h2>
+      <p> 
+        Freelancer as a frontend developer (most work with JavaScript, Vue.js, etc) 
+      </p> 
       <br/>
 
-      <p>  
-        I hope that through this blog, I can share experiences and things that I know and also
-        hope that what I write here can be useful for others.
-      </p>
+      <h2> What are you doing now? </h2>
+      <p>
+        - Currently working on an open source based internship project
+      </p> 
       <br/>
 
-      <p>
-        Oh yeah btw, if you want to know what I'm doing now, 
-        you can visit this <nuxt-link to="/now"> page </nuxt-link> 
-        and you can contact me on the telegram <a href="https://telegram.me/muhfaridzia"> @muhfaridzia </a>
+      <h2> Anything else </h2>
+      <p> 
+        Hmm, for now maybe that's it
       </p>
       <br/><br/><br/>
 
@@ -45,8 +41,8 @@
 /* eslint-disable */ 
 export default {
   head () {
-    const title = "Muhammad Farid Zia | About"
-    const description = "About me, muhammad farid zia"
+    const title = "Muhammad Farid Zia | Now"
+    const description = "Now, muhammad farid zia"
     const url = "https://muhfaridzia.netlify.com/"
     return {
       title,
@@ -84,52 +80,29 @@ export default {
   display: flex;
   flex-direction: column;
 }
-.about {
+.now {
   box-sizing: border-box;
   margin-bottom: 30px;
 }
-.about__photo {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+.now__desc {
+  font-size: 25px !important;
 }
-.about__photo img{
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-}
-.about h2 {
+.now h2 {
   color: rgb(102, 102, 102);
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 15px;
   font-size: 28px;
 }
-.about p {
+.now p {
   margin-left: 40px;
   margin-right: 40px;
   font-size: 19px;
   color: #777;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   line-height: 30px;
   text-align: justify;
 }
-/* .backto-btn {
-  display: flex;
-  justify-content: flex-start;
-}
-.backto {
-  background: #ddd;
-  color: black;
-  padding: 10px;
-  text-decoration: none;
-  font-size: 16px;
-}
-.backto:hover {
-  background: #777;
-  color: #fff;
-} */
 
 .footer {
   margin-bottom: -40px !important;
@@ -140,10 +113,13 @@ export default {
     width: 90vw;
     background: transparent;
   }
-  .about h2 {
+  .now__desc {
+    font-size: 19px !important;
+  }
+  .now h2 {
     font-size: 18px;
   }
-  .about p {
+  .now p {
     font-size: 14px;
     text-align: left;
   }
