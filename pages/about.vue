@@ -16,20 +16,21 @@
       <br/>
 
       <p>
-        I am a native of Lombok and was born there, a beautiful little island, on this small island
-        I spent my childhood, before I migrated to the flower city of Bandung, to continue studying
-        there and now I am studying at Telkom University Bandung, and majoring Informatics Engineering.
+        I am from Lombok, a beautiful little island, on this small island I spent my childhood,
+        before I moved to the kota kembang Bandung to continue studying there and now I study at
+        Telkom University, and major in Informatics Engineering.
       </p>
       <br/>
 
       <p>  
-        I hope that through this blog I can share experiences and things that I know and also
-        hopefully what I write here can be useful for all my friends.
+        I hope that through this blog, I can share experiences and things that I know and also
+        hope that what I write here can be useful for others.
       </p>
       <br/>
 
       <p>
-        Oh yeah btw, if you want to know what I'm doing now, you can visit this <nuxt-link to="/now"> page </nuxt-link>, 
+        Oh yeah btw, if you want to know what I'm doing now, 
+        you can visit this <nuxt-link to="/now"> page </nuxt-link> 
         and you can contact me on the telegram <a href="https://telegram.me/muhfaridzia"> @muhfaridzia </a>
       </p>
       <br/><br/><br/>
