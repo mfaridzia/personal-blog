@@ -43,6 +43,11 @@ export default {
 </script>
 
 <style scoped>
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 .container__home {
   width: 50vw;
   height: auto;

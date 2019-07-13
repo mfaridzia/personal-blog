@@ -32,6 +32,11 @@ export default {
 </script>
 
 <style>
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 .navigation {
   width: 100%;
   background: #fff;
