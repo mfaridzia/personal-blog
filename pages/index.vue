@@ -54,7 +54,7 @@ export default {
   background: transparent;
   box-sizing: border-box;
   padding: 20px;
-  margin: 100px auto;
+  margin: 140px auto;
 }
 .home__hello {
   font-size: 40px;
