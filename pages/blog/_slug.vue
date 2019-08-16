@@ -1,16 +1,13 @@
 <template>
   <div class="slug">
     <div class="content">
-      <span class="content__date" style="color: #777;"> 
-        Written by Muhammad Farid Zia on {{ date }}  
-      </span>
-      <h1 class="content__title"> {{ title }} </h1> 
-      <DynamicMarkdown 
-        :render-func="renderFunc"
-        :static-render-funcs="staticRenderFuncs"
-      />
+      <span class="content__date" style="color: #777;">Written by Muhammad Farid Zia on {{ date }}</span>
+      <h1 class="content__title">{{ title }}</h1>
+      <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
 
-      <nuxt-link to="/blog" class="blog-post"> Back to Home </nuxt-link> <br/><br/> 
+      <!-- <nuxt-link to="/blog" class="blog-post">Back to Home</nuxt-link>
+      <br />
+      <br />-->
     </div>
 
     <MainFooter />
@@ -18,12 +15,13 @@
 </template>
 
 <script>
-/* eslint-disable */ 
+/* eslint-disable */
+
 import DynamicMarkdown from '~/components/Markdown/DynamicMarkdown.vue'
 
 export default {
   name: 'DetailPage',
-   head () {
+  head() {
     const title = `${this.title}`
     const description = `${this.description}`
     const url = `${this.blogUrl}/${this.slug}/`
@@ -31,24 +29,40 @@ export default {
       title,
       meta: [
         { hid: 'description', name: 'description', content: description },
-        { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: title },
+        {
+          hid: 'apple-mobile-web-app-title',
+          name: 'apple-mobile-web-app-title',
+          content: title
+        },
         { hid: 'og:title', property: 'og:title', content: title },
-        { hid: 'og:description', property: 'og:description', content: description },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: description
+        },
         { hid: 'og:url', property: 'og:url', content: url },
         { hid: 'og:type', property: 'og:type', content: 'article' },
-        { hid: 'article:section', property: 'article:section', content: 'Life, Technology, Frontend' },
+        {
+          hid: 'article:section',
+          property: 'article:section',
+          content: 'Life, Technology, Frontend'
+        },
         { hid: 'twitter:title', name: 'twitter:title', content: title },
-        { hid: 'twitter:description', name: 'twitter:description', content: description },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description
+        },
         { hid: 'twitter:url', name: 'twitter:url', content: url }
       ]
     }
   },
-  data () {
+  data() {
     return {
       blogUrl: 'https://muhfaridzia.netlify.com'
     }
   },
-  async asyncData ({ params }) {
+  async asyncData({ params }) {
     const fileContent = await import(`~/posts/article/${params.slug}.md`)
     const data = fileContent.attributes
     return {
@@ -63,7 +77,7 @@ export default {
   },
   components: {
     DynamicMarkdown,
-    MainFooter: () => import("@/components/Footer/MainFooter.vue")
+    MainFooter: () => import('@/components/Footer/MainFooter.vue')
   }
 }
 </script>
@@ -80,7 +94,7 @@ div {
   min-height: 60vh;
 }
 .blog-post {
-  font-size: 25px;
+  font-size: 15px;
   text-decoration: none;
 }
 .content__title {
@@ -96,7 +110,7 @@ div {
   margin-bottom: -50px !important;
 }
 
-@media screen and (min-width: 501px) and (max-width:1000px) {
+@media screen and (min-width: 501px) and (max-width: 1000px) {
   .slug {
     width: 80vw;
     margin: 0 auto;
@@ -110,8 +124,8 @@ div {
   .footer {
     margin-bottom: -20px !important;
   }
-} 
-@media screen and (min-width: 200px) and (max-width:500px) {
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
   .slug {
     width: 80vw;
     margin: 0 auto;
@@ -125,5 +139,5 @@ div {
   .footer {
     margin-bottom: -20px !important;
   }
-} 
+}
 </style>

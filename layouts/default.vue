@@ -1,16 +1,24 @@
 <template>
   <div>
-     <!-- Test menu navigasi, masih belum fix -->
-    <div class="navigation"> 
+    <!-- Test menu navigasi, masih belum fix -->
+    <div class="navigation">
       <div class="navigation__condition">
-        <button class="nav__show" v-if="isShow == false" @click="isShow = true"> ☰ </button>
-        <button class="nav__hide" v-else  @click="isShow = false"> &#10005; </button>
+        <button class="nav__show" v-if="isShow == false" @click="isShow = true">☰</button>
+        <button class="nav__hide" v-else @click="isShow = false">&#10005;</button>
       </div>
       <ul class="navigation__menu" v-if="isShow == true">
-        <li> <nuxt-link to="/"> Home </nuxt-link> </li>
-        <li> <nuxt-link to="/blog"> Blog </nuxt-link> </li>
-        <li> <nuxt-link to="/about"> About </nuxt-link> </li>
-        <li> <nuxt-link to="/now"> Now </nuxt-link> </li>
+        <li>
+          <nuxt-link to="/">Home</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/blog">Blog</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/about">About</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/now">Now</nuxt-link>
+        </li>
       </ul>
     </div>
 
@@ -21,7 +29,8 @@
 </template>
 
 <script>
-/* eslint-disable */ 
+/* eslint-disable */
+
 export default {
   data() {
     return {
@@ -72,7 +81,7 @@ export default {
   justify-content: flex-start;
 } */
 .navigation__condition .nav__show,
-.navigation__condition .nav__hide { 
+.navigation__condition .nav__hide {
   border: none;
   background-color: #000;
   color: #fff;
@@ -83,9 +92,9 @@ export default {
   outline: none;
 }
 .navigation__condition .nav__show:hover,
-.navigation__condition .nav__hide:hover { 
+.navigation__condition .nav__hide:hover {
   background-color: #202020;
-  color: #fff; 
+  color: #fff;
 }
 </style>
 
