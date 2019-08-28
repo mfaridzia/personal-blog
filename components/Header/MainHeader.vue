@@ -1,23 +1,24 @@
 <template>
   <header class="header">
     <div class="header__avatar">
-      <img src="/avatar/photo.jpg" alt="photo" class="header__photo">
+      <img src="/avatar/avatar.jpg" alt="photo" class="header__photo" />
     </div>
     <div class="header__profile">
       <div class="header__profile--text">
-        <nuxt-link to="/" class="header__profile--link"> <h1> Muhammad Farid Zia </h1> </nuxt-link>
+        <nuxt-link to="/" class="header__profile--link">
+          <h1>Muhammad Farid Zia</h1>
+        </nuxt-link>
       </div>
       <div class="header__profile--desc">
-        <p> 
-          Frontend Developer who like to write about personal opinions
-        </p>
-      </div> 
+        <p>Frontend Developer who like to write about personal opinions</p>
+      </div>
     </div>
   </header>
 </template>
 
 <script>
-/* eslint-disable */ 
+/* eslint-disable */
+
 export default {
   name: 'MainHeader'
 }
@@ -49,7 +50,6 @@ export default {
 .header__profile--desc p {
   font-size: 16px;
 }
-
 
 @media screen and (max-width: 380px) {
   .header__profile--link h1 {
