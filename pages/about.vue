@@ -17,7 +17,7 @@
       <p>
         I am from Lombok, a beautiful little island, on this small island I spent my childhood,
         before I moved to kota kembang a.k.a Bandung to continue studying there and now I study at
-        Telkom University, and major in Informatics Engineering.
+        Telkom University, and majored in Informatics Engineering.
       </p>
       <br />
 
