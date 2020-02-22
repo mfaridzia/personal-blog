@@ -18,7 +18,7 @@ Dalam hidup yang relatif singkat ini, semua orang pasti mempunyai mimpi terbesar
 <br/><br/>
 
 Hmm ok ok mungkin itu cenderung lebih ke akhirat ya, tapi untuk mimpi di dunia gw pikir setiap orang punya mimpinya masing-masing. Begitupula dengan gw sendiri.
-<br/></br>
+<br/></br><br/>
 
 ## Mimpi Terbesar
 
