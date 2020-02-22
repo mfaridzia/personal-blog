@@ -18,8 +18,11 @@ Dalam hidup yang relatif singkat ini, semua orang pasti mempunyai mimpi terbesar
 <br/><br/>
 
 Hmm ok ok mungkin itu cenderung lebih ke akhirat ya, tapi untuk mimpi di dunia gw pikir setiap orang punya mimpinya masing-masing. Begitupula dengan gw sendiri.
+<br/></br>
 
-### Mimpi Terbesar
+## Mimpi Terbesar
+
+<br/>
 
 Salah satu mimpi terbesar yang pengen gw capai adalah "Punya sekolah sendiri", hmm gak sekolah juga sih sebenarnya, bingung juga mau nge-bahasain nya seperti apa, intinya sih gw pengen buat sebuah tempat/wadah belajar(yang gw pikirin sekarang masih seputar teknologi, karena salah satunya background gw emang di bidang tech) buat anak-anak yang kurang kurang beruntung untuk bisa lanjut ke bangku sekolah/kuliah, namun punya semangat belajar yang kuat.
 <br/><br/>
@@ -42,4 +45,4 @@ Terakhir, gw selalu berpikir gimana caranya mimpi gw ini bisa bermanfaat juga bu
 Oke gw kira ini aja yang bisa gw tulis, yang terakhir gw cuma mau bilang, berusahalah untuk memberikan manfaat kepada orang lain walaupun itu mungkin hanya sebatas membuat orang lain tersenyum dengan kebaikan kecil yang kita lakukan.
 <br/> <br/>
 
-Terimkasih buat yang udah mau baca cerita gw.
+Terima kasih buat yang udah mau baca & mendengarkan cerita gw, selamat weekend dan rebahan 😁!
