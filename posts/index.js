@@ -1,5 +1,6 @@
 /* eslint-disable */
 export default [
+  'mimpimu-mimpiku',
   'berpapasan',
   'rekap-untuk-april-2019',
   'semua-butuh-proses',

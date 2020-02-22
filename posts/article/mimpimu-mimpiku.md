@@ -1,8 +1,8 @@
 ---
 title: Mimpimu dan Mimpiku
 slug: mimpimu-mimpiku
-date: '23 February, 2020'
-short_description: Mungkin mimpimu adalah mimpiku juga
+date: '23 Februari, 2020'
+short_description: Kita semua pasti punya mimpi terbesar dalam hidup
 ---
 
 Bicara masalah mimpi itu sepertinya gak bakalan ada habisnya, mimpi itu selalu datang dan entah kenapa ia selalu terdoktrin di otak, seperti mengatakan kepada diri sendiri **"Hey ingat kamu punya mimpi yang harus kamu kejar".**

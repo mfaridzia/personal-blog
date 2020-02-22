@@ -1,7 +1,7 @@
 ---
 title: Frontend Fatigue
 slug: frontend-fatigue
-date: '21 February, 2019'
+date: '21 Februari, 2019'
 short_description: Mencoba untuk tetap survive dalam ekosistem pengembangan frontend
 ---
 
@@ -9,7 +9,7 @@ Beberapa tahun belakangan ini sepertinya perkembangan ekosistem frontend develop
 
 <br/>
 
-Hari demi hari semakin banyak aja tools-tools yang mulai bermunculan di ekosistem JavaScript ini untuk membantu kita sebagai developer dalam menyelesaikan masalah-masalah saat pengembangan perangkat lunak, mulai dari libraries nya, frameworks, build tools, etc you name it dah. 
+Hari demi hari semakin banyak aja tools-tools yang mulai bermunculan di ekosistem JavaScript ini untuk membantu kita sebagai developer dalam menyelesaikan masalah-masalah saat pengembangan perangkat lunak, mulai dari libraries nya, frameworks, build tools, etc you name it dah.
 
 <br/>
 
@@ -29,7 +29,7 @@ Node.js ? Angular.js ? Gulp ? Grunt ? NPM ? ES6+ ? hmmm itu mahluk apa ? apa itu
 
 <br />
 
-Ok sekarang saya sudah paham dan pernah pake angular.js, gulp, etc sekarang saya merasa saya sudah bisa untuk tetap survive dalam ekosistem JavaScript ini. Eits jangan senang dulu kamu belum mengenal yang namanya module bundler macam Webpack, Parcel, Compiler kek Babel, framework dan library yang lagi hot-hotnya seperti React, Vue, testing macem jest, mocha dan teknologi lain seperti PWA, CSS in JS, bahkan Angular pun yg udah kamu pakai, udah ditulis ulang pake TypeScript, dan masih ada banyak lagi kepusingan yang lainnya. 
+Ok sekarang saya sudah paham dan pernah pake angular.js, gulp, etc sekarang saya merasa saya sudah bisa untuk tetap survive dalam ekosistem JavaScript ini. Eits jangan senang dulu kamu belum mengenal yang namanya module bundler macam Webpack, Parcel, Compiler kek Babel, framework dan library yang lagi hot-hotnya seperti React, Vue, testing macem jest, mocha dan teknologi lain seperti PWA, CSS in JS, bahkan Angular pun yg udah kamu pakai, udah ditulis ulang pake TypeScript, dan masih ada banyak lagi kepusingan yang lainnya.
 
 <br/>
 
@@ -55,4 +55,4 @@ Btw, yang saya bicarakan diatas kebanyakan pada ekosistem JavaScript nya ya, say
 
 Karena jam di laptop saya sudah menunjukan pukul 00:05 waktu indonesia barat, saatnya saya siap-siap untuk tidur, semoga coretan singkat ini bisa bermanfaat buat teman-teman sekalian, terimakasih buat yang udah mau menyempatkan baca.
 
-<br/> 
+<br/>
