@@ -22,39 +22,20 @@ import DynamicMarkdown from '~/components/Markdown/DynamicMarkdown.vue'
 export default {
   name: 'DetailPage',
   head() {
-    const title = `${this.title}`
+    const title = `${this.title} - Muhammad Farid Zia`
     const description = `${this.description}`
     const url = `${this.blogUrl}/${this.slug}/`
     return {
       title,
       meta: [
-        { hid: 'description', name: 'description', content: description },
-        {
-          hid: 'apple-mobile-web-app-title',
-          name: 'apple-mobile-web-app-title',
-          content: title
-        },
-        { hid: 'og:title', property: 'og:title', content: title },
-        {
-          hid: 'og:description',
-          property: 'og:description',
-          content: description
-        },
-        { hid: 'og:url', property: 'og:url', content: url },
-        { hid: 'og:type', property: 'og:type', content: 'article' },
-        {
-          hid: 'article:section',
-          property: 'article:section',
-          content: 'Life, Technology, Frontend'
-        },
-        { hid: 'twitter:title', name: 'twitter:title', content: title },
-        {
-          hid: 'twitter:description',
-          name: 'twitter:description',
-          content: description
-        },
-        { hid: 'twitter:url', name: 'twitter:url', content: url }
-      ]
+        { name: "author", content: "Muhammad Farid Zia" },
+        { name: "description", property: "og:description", content: description, hid: "description" },
+        { property: "og:title", content: this.title },
+        // { property: "og:image", content: this.ogImage },
+        { name: "twitter:description", content: description },
+        // { name: "twitter:image", content: this.ogImage }
+      ],
+      
     }
   },
   data() {
