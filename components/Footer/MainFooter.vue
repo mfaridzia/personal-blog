@@ -1,11 +1,13 @@
 <template>
   <footer class="footer">
-    Copyright © 2019 - 
-    Made with <span style="color: #e25555;">&#9829;</span> in Bandung, Indonesia by
-    <a
-      href="https://github.com/mfaridzia"
-      target="_blank"
-      rel="noopener">Muhammad Farid Zia</a>
+    Copyright © 2019 - Made with 
+    <span style="color: #e25555;">
+      &#9829;
+    </span> 
+    in Bandung, Indonesia by
+    <a href="https://github.com/mfaridzia" target="_blank" rel="noopener">
+      Muhammad Farid Zia
+    </a>
   </footer>
 </template>
 

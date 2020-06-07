@@ -1,8 +1,14 @@
 <template>
   <div class="container__home">
-    <p class="home__hello">Hello World.</p>
-    <h1 class="home__name">I'm Muhammad Farid Zia</h1>
-    <h2 class="home__descjob">Frontend Developer who like to write about personal opinions</h2>
+    <p class="home__hello">
+      Hello World.
+    </p>
+    <h1 class="home__name">
+      I'm Muhammad Farid Zia
+    </h1>
+    <h2 class="home__descjob">
+      Frontend Developer who like to write about personal opinions
+    </h2>
 
     <p class="home__description">
       Every day most spend time with things related to frontend. You can find me on

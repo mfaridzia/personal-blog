@@ -3,21 +3,33 @@
     <!-- Test menu navigasi, masih belum fix -->
     <div class="navigation">
       <div class="navigation__condition">
-        <button class="nav__show" v-if="isShow == false" @click="isShow = true">☰</button>
-        <button class="nav__hide" v-else @click="isShow = false">&#10005;</button>
+        <button v-if="isShow == false" class="nav__show" @click="isShow = true">
+          ☰
+        </button>
+        <button v-else class="nav__hide" @click="isShow = false">
+          &#10005;
+        </button>
       </div>
-      <ul class="navigation__menu" v-if="isShow == true">
+      <ul v-if="isShow == true" class="navigation__menu">
         <li>
-          <nuxt-link to="/">Home</nuxt-link>
+          <nuxt-link to="/">
+            Home
+          </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/blog">Blog</nuxt-link>
+          <nuxt-link to="/blog">
+            Blog
+          </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/about">About</nuxt-link>
+          <nuxt-link to="/about">
+            About
+          </nuxt-link>   
         </li>
         <li>
-          <nuxt-link to="/now">Now</nuxt-link>
+          <nuxt-link to="/now">
+            Now   
+          </nuxt-link>
         </li>
       </ul>
     </div>

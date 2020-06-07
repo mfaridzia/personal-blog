@@ -6,28 +6,30 @@
         without having to ask directly.
       </p>
       <p>
-        <br />
+        <br>
       </p>
       <h2>Living</h2>
       <p>Bandung, West Java. Indonesia.</p>
-      <br />
+      <br>
 
       <h2>Careers</h2>
       <p>Freelancer as a Frontend Developer (most work with JavaScript, Vue.js, etc)</p>
-      <br />
+      <br>
 
       <h2>What are you doing now?</h2>
       <p>Still learning about Svelte and things related to Frontend and JavaScript</p>
-      <br />
+      <br>
 
       <h2>Anything else</h2>
       <p>Hmm, for now maybe that's it</p>
-      <br />
-      <br />
-      <br />
+      <br>
+      <br>
+      <br>
 
       <p class="backto-btn">
-        <nuxt-link to="/" class="backto">Back to Home</nuxt-link>
+        <nuxt-link to="/" class="backto">
+          Back to Home
+        </nuxt-link>
       </p>
     </div>
     <MainFooter />

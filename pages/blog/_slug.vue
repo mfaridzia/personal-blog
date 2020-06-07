@@ -2,7 +2,9 @@
   <div class="slug">
     <div class="content">
       <span class="content__date" style="color: #777;">Written by Muhammad Farid Zia on {{ date }}</span>
-      <h1 class="content__title">{{ title }}</h1>
+      <h1 class="content__title">
+        {{ title }}
+      </h1>
       <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
       <!-- <nuxt-link to="/blog" class="blog-post">Back to Home</nuxt-link> -->
     </div>

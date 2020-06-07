@@ -6,7 +6,11 @@
       <div v-for="post in posts" :key="post.slug" class="post">
         <div class="post__article">
           <span class="post__date"> {{ post.date }} </span>
-          <nuxt-link :to="`/blog/${post.slug}`" class="post__title"> <h1> {{ post.title }} </h1> </nuxt-link>
+          <nuxt-link :to="`/blog/${post.slug}`" class="post__title"> 
+            <h1> 
+              {{ post.title }} 
+            </h1> 
+          </nuxt-link>
           <div class="post__desc">
             <p> {{ post.short_description }} </p>
           </div>

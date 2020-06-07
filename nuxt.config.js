@@ -1,10 +1,11 @@
-const pkg = require('./package')
+/* eslint-disable prettier/prettier */
+import posts from './posts/index.js'
 const path = require('path')
+const pkg = require('./package')
 const blogTitle = 'A blog by Muhammad Farid Zia'
 const blogUrl = 'https://muhfaridzia.netlify.com/'
 const icon = `${blogUrl}/favicon.png`
 
-import posts from './posts/index.js'
 const routes = posts.map(post => {
   post = `blog/${post}`
   return post
@@ -21,8 +22,8 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description },
-      { name: 'author', content: 'Muhammad Farid Zia'},
+      // { hid: 'description', name: 'description', content: pkg.description },
+      // { name: 'author', content: 'Muhammad Farid Zia'},
       { hid: 'keywords', name: 'keywords', content: 'muhfaridzia, mfaridzia, muhammad farid zia, frontend, frontend developer' },
 
       { name: 'theme-color', content: '#189ad3;' },

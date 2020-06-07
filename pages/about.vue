@@ -2,7 +2,7 @@
   <div class="container">
     <div class="about">
       <div class="about__photo">
-        <img src="/avatar/avatar.jpg" alt="photo" />
+        <img src="/avatar/avatar.jpg" alt="photo">
       </div>
       <h2>Hello, I'm Muhammad Farid Zia</h2>
       <p>
@@ -12,33 +12,37 @@
         Very passionate about software development especially in the field of web technologies
         such as JavaScript, Vue.js, React.js, Node.js and many more.
       </p>
-      <br />
+      <br>
 
       <p>
         I am from Lombok, a beautiful little island, on this small island I spent my childhood,
         before I moved to kota kembang a.k.a Bandung to continue studying there and now I study at
         Telkom University, and majored in Informatics Engineering.
       </p>
-      <br />
+      <br>
 
       <p>
         I hope that through this blog, I can share experiences and things that I know and also
         hope that what I write here can be useful for others.
       </p>
-      <br />
+      <br>
 
       <p>
         Oh yeah btw, if you want to know what I'm doing now,
         you can visit this
-        <nuxt-link to="/now">page</nuxt-link>and you can contact me on the telegram
+        <nuxt-link to="/now">
+          page
+        </nuxt-link>and you can contact me on the telegram
         <a href="https://telegram.me/muhfaridzia">@muhfaridzia</a>
       </p>
-      <br />
-      <br />
-      <br />
+      <br>
+      <br>
+      <br>
 
       <p class="backto-btn">
-        <nuxt-link to="/" class="backto">Back to Home</nuxt-link>
+        <nuxt-link to="/" class="backto">
+          Back to Home
+        </nuxt-link>
       </p>
     </div>
     <MainFooter />
