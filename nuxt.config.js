@@ -6,7 +6,7 @@ const icon = `${blogUrl}/favicon.png`
 
 import posts from './posts/index.js'
 const routes = posts.map(post => {
-  post = `/${post}/${post.slug}`
+  post = `blog/${post}`
   return post
 })
 
