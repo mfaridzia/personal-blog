@@ -35,14 +35,14 @@ export default {
   },
   head () {
     return {
-      title: this.title + '- Muhammad Farid Zia',
+      title: this.title,
       meta: [
         { name: "author", content: "Muhammad Farid Zia" },
         { name: "description", property: "og:description", content: this.description, hid: "description" },
-        { property: "og:title", content: this.title + '- Muhammad Farid Zia' },
+        { property: "og:title", content: this.title },
         { name: "twitter:description", content: this.description },
-      ],
-    };
+      ]
+    }
   },
   data() {
     return {}

@@ -12,8 +12,7 @@ const routes = posts.map(post => {
 })
 
 module.exports = {
-  mode: 'spa',
-
+  // mode: 'spa',
   /*
   ** Headers of the page
   */
