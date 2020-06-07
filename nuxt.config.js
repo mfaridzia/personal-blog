@@ -21,8 +21,8 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      // { hid: 'description', name: 'description', content: pkg.description },
-      // { name: 'author', content: 'Muhammad Farid Zia'},
+      { hid: 'description', name: 'description', content: pkg.description },
+      { name: 'author', content: 'Muhammad Farid Zia'},
       { hid: 'keywords', name: 'keywords', content: 'muhfaridzia, mfaridzia, muhammad farid zia, frontend, frontend developer' },
 
       { name: 'theme-color', content: '#189ad3;' },
