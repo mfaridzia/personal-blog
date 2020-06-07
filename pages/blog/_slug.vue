@@ -55,7 +55,7 @@ export default {
 <style scoped>
 .slug {
   width: 50vw;
-  margin: 50px auto;
+  margin: 40px auto;
   background: transparent;
 }
 div {
@@ -83,7 +83,7 @@ div {
 @media screen and (min-width: 501px) and (max-width: 1000px) {
   .slug {
     width: 80vw;
-    margin: 0 auto;
+    margin: 40px auto;
   }
   p {
     font-size: 16px;
@@ -98,7 +98,7 @@ div {
 @media screen and (min-width: 200px) and (max-width: 500px) {
   .slug {
     width: 80vw;
-    margin: 0 auto;
+    margin: 40px auto;
   }
   p {
     font-size: 16px;
