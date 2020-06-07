@@ -4,10 +4,7 @@
       <span class="content__date" style="color: #777;">Written by Muhammad Farid Zia on {{ date }}</span>
       <h1 class="content__title">{{ title }}</h1>
       <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
-
-      <!-- <nuxt-link to="/blog" class="blog-post">Back to Home</nuxt-link>
-      <br />
-      <br />-->
+      <!-- <nuxt-link to="/blog" class="blog-post">Back to Home</nuxt-link> -->
     </div>
 
     <MainFooter />
@@ -21,28 +18,6 @@ import DynamicMarkdown from '~/components/Markdown/DynamicMarkdown.vue'
 
 export default {
   name: 'DetailPage',
-  head() {
-    const title = `${this.title} - Muhammad Farid Zia`
-    const description = `${this.description}`
-    const url = `${this.blogUrl}/${this.slug}/`
-    return {
-      title,
-      meta: [
-        { name: "author", content: "Muhammad Farid Zia" },
-        { name: "description", property: "og:description", content: description, hid: "description" },
-        { property: "og:title", content: this.title },
-        // { property: "og:image", content: this.ogImage },
-        { name: "twitter:description", content: description },
-        // { name: "twitter:image", content: this.ogImage }
-      ],
-      
-    }
-  },
-  data() {
-    return {
-      blogUrl: 'https://muhfaridzia.netlify.com'
-    }
-  },
   async asyncData({ params }) {
     const fileContent = await import(`~/posts/article/${params.slug}.md`)
     const data = fileContent.attributes
@@ -56,6 +31,20 @@ export default {
       staticRenderFuncs: fileContent.vue.staticRenderFns
     }
   },
+  head () {
+    return {
+      title: this.title + '- Muhammad Farid Zia',
+      meta: [
+        { name: "author", content: "Muhammad Farid Zia" },
+        { name: "description", property: "og:description", content: this.description, hid: "description" },
+        { property: "og:title", content: this.title + '- Muhammad Farid Zia' },
+        { name: "twitter:description", content: this.description },
+      ],
+    };
+  },
+  data() {
+    return {}
+  },
   components: {
     DynamicMarkdown,
     MainFooter: () => import('@/components/Footer/MainFooter.vue')
@@ -66,7 +55,7 @@ export default {
 <style scoped>
 .slug {
   width: 50vw;
-  margin: 40px auto;
+  margin: 50px auto;
   background: transparent;
 }
 div {
