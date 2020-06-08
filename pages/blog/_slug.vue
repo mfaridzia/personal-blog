@@ -35,11 +35,11 @@ export default {
   },
   head () {
     return {
-      title: this.title,
+      title: this.pageTitle,
       meta: [
         { name: "author", content: "Muhammad Farid Zia" },
         { name: "description", property: "og:description", content: this.description, hid: "description" },
-        { property: "og:title", content: this.title },
+        { property: "og:title", content: this.pageTitle },
         { property: "og:image", content: this.ogImage },
         { name: "twitter:description", content: this.description },
         { name: "twitter:image", content: this.ogImage }
@@ -52,7 +52,10 @@ export default {
   computed: {
     ogImage() {
       return
-    }
+    },
+    pageTitle () {
+      return this.title + ' – Muhammad Farid Zia';
+    },
   },
   components: {
     DynamicMarkdown,
