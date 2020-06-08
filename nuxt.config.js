@@ -2,7 +2,7 @@
 import posts from './posts/index.js'
 const builtAt = new Date().toISOString()
 const path = require('path')
-const blogTitle = 'Muhammad Farid Zia | Frontend Developer and Storyteller'
+const blogTitle = 'Muhammad Farid Zia • Frontend Developer and Storyteller'
 const blogUrl = 'https://muhfaridzia.netlify.com/'
 const icon = `${blogUrl}/favicon.png`
 

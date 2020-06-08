@@ -42,7 +42,6 @@ export default {
     const description = 'A blog by Muhammad Farid Zia'
     return {
       title: title,
-      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
       meta: [
         { name: "author", content: title },
         { name: "description", property: "og:description", content: description, hid: "description" },

@@ -27,13 +27,12 @@
 /* eslint-disable */
 export default {
   head () {
-    const title = 'Muhammad Farid Zia | Frontend Developer and Storyteller'
-    const description = 'I’m a Frontend Developer and Storyteller based in Indonesia'
+    const title = 'Muhammad Farid Zia - Frontend Developer and Storyteller'
+    const description = 'Home - I’m a Frontend Developer and Storyteller based in Indonesia'
     return {
       title: title,
-      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
       meta: [
-        { name: "author", content: "Marina Aisa" },
+        { name: "author", content: "Muhammad Farid Zi" },
         { name: "description", property: "og:description", content: description, hid: "description" },
         { property: "og:title", content: title },
         { property: "og:image", content: this.ogImage },

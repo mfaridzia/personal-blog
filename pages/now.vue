@@ -40,40 +40,24 @@
 /* eslint-disable */
 
 export default {
-  head() {
-    const title = 'Muhammad Farid Zia | Now'
-    const description = 'I’m a Frontend Developer and Storyteller based in Indonesia'
-    const url = 'https://muhfaridzia.netlify.com/'
+  head () {
+    const title = 'Muhammad Farid Zia - Now'
+    const description = 'Now - I’m a Frontend Developer and Storyteller based in Indonesia'
     return {
-      title,
+      title: title,
       meta: [
-        { hid: 'description', name: 'description', content: description },
-        {
-          hid: 'apple-mobile-web-app-title',
-          name: 'apple-mobile-web-app-title',
-          content: title
-        },
-        { hid: 'og:title', property: 'og:title', content: title },
-        {
-          hid: 'og:description',
-          property: 'og:description',
-          content: description
-        },
-        { hid: 'og:url', property: 'og:url', content: url },
-        { hid: 'og:type', property: 'og:type', content: 'article' },
-        {
-          hid: 'article:section',
-          property: 'article:section',
-          content: 'Life, Technology, Frontend'
-        },
-        { hid: 'twitter:title', name: 'twitter:title', content: title },
-        {
-          hid: 'twitter:description',
-          name: 'twitter:description',
-          content: description
-        },
-        { hid: 'twitter:url', name: 'twitter:url', content: url }
+        { name: "author", content: "Muhammad Farid Zia" },
+        { name: "description", property: "og:description", content: description, hid: "description" },
+        { property: "og:title", content: title },
+        { property: "og:image", content: this.ogImage },
+        { name: "twitter:description", content: description },
+        { name: "twitter:image", content: this.ogImage }
       ]
+    }
+  },
+  computed: {
+    ogImage() {
+      return
     }
   },
   components: {
