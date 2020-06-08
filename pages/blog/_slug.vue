@@ -40,12 +40,19 @@ export default {
         { name: "author", content: "Muhammad Farid Zia" },
         { name: "description", property: "og:description", content: this.description, hid: "description" },
         { property: "og:title", content: this.title },
+        { property: "og:image", content: this.ogImage },
         { name: "twitter:description", content: this.description },
+        { name: "twitter:image", content: this.ogImage }
       ]
-    }
+    };
   },
   data() {
     return {}
+  },
+  computed: {
+    ogImage() {
+      return
+    }
   },
   components: {
     DynamicMarkdown,

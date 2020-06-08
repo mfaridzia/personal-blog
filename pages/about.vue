@@ -55,7 +55,7 @@
 export default {
   head() {
     const title = 'Muhammad Farid Zia | About'
-    const description = 'About me, muhammad farid zia'
+    const description = 'I’m a Frontend Developer and Storyteller based in Indonesia'
     const url = 'https://muhfaridzia.netlify.com/'
     return {
       title,

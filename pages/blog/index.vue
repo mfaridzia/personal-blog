@@ -37,6 +37,27 @@ export default {
       return { posts: response }
     })
   },
+  head () {
+    const title = 'Muhammad Farid Zia | Frontend Developer & Storyteller'
+    const description = 'A blog by Muhammad Farid Zia'
+    return {
+      title: title,
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+      meta: [
+        { name: "author", content: title },
+        { name: "description", property: "og:description", content: description, hid: "description" },
+        { property: "og:title", content: title },
+        { property: "og:image", content: this.ogImage },
+        { name: "twitter:description", content: description },
+        { name: "twitter:image", content: this.ogImage }
+      ]
+    };
+  },
+  computed: {
+    ogImage() {
+      return
+    }
+  },
   components: {
     MainHeader,
     MainFooter: () => import("@/components/Footer/MainFooter.vue")
