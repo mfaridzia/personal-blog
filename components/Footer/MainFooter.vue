@@ -11,13 +11,6 @@
   </footer>
 </template>
 
-<script>
-/* eslint-disable */ 
-export default {
-  name: 'BaseFooter'
-}
-</script>
-
 <style scoped>
 .footer {
   width: 100%;
@@ -32,13 +25,13 @@ a {
     width: 80%;
     font-size: 12px;
   }
-} 
+}
 @media screen and (min-width: 200px) and (max-width: 500px) {
   .footer {
     width: 80%;
     font-size: 12px;
   }
-} 
+}
 @media screen and (max-width: 380px) {
   .footer {
     width: 80%;
