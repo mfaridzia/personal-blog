@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    Copyright © 2019 - Made with 
+    Copyright © {{ new Date().getFullYear() }} - Made with 
     <span style="color: #e25555;">
       &#9829;
     </span> 
