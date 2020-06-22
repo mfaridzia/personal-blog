@@ -1,5 +1,6 @@
 /* eslint-disable */
 export default [
+  'balik-kampung-disaat-wabah-covid-19',
   'mimpimu-mimpiku',
   'berpapasan',
   'rekap-untuk-april-2019',
