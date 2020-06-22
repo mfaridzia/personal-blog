@@ -89,12 +89,13 @@ Jadi ya klimaksnya itu, gw akhirnya tepar ketika balik ke Lombok, untungnya Alla
 <br/><br/>
 
 Hikmah dan pelajaran yang bisa gw pelajari adalah
-
-<pre>
-  Makan yang teratur dan jaga apa yang dimakan, karena kesahatan emang penting banget, 
-  tapi kadang sering dilupain gitu aja. Satu lagi sih, ketika berpergian jauh, kalo bisa
-  minimal berdua, jangan sendiri, supaya kalo ada apa-apa ada yang bantuin.
-</pre>
 <br/>
+<i>
+Makan yang teratur dan jaga apa yang dimakan, karena kesahatan emang penting banget, 
+tapi kadang sering dilupain gitu aja. Satu lagi sih, ketika berpergian jauh, kalo bisa
+minimal berdua, jangan sendiri, supaya kalo ada apa-apa ada yang bantuin.
+</i>
+<br/><br/>
 
 Sekian, semoga apa yang gw share ini bisa bermanfaat buat kalian semua. Terima kasih buat yang udah mau baca & mendengarkan cerita gw.
+<br/>
