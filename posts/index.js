@@ -2,7 +2,6 @@
 export default [
   'balik-kampung-disaat-wabah-covid-19',
   'mimpimu-mimpiku',
-  'berpapasan',
   'rekap-untuk-april-2019',
   'semua-butuh-proses',
   'hanya-karena-mencari-75-persen',
