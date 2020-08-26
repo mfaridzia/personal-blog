@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="header__avatar">
-      <img src="/avatar/avatar.jpg" alt="photo" class="header__photo">
+      <img src="/avatar/avatar.png" alt="photo" class="header__photo">
     </div>
     <div class="header__profile">
       <div class="header__profile--text">
