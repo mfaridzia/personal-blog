@@ -2,7 +2,7 @@
   <div class="container">
     <div class="about">
       <div class="about__photo">
-        <img src="/avatar/avatar.jpg" alt="photo">
+        <img src="/avatar/avatar.png" alt="photo">
       </div>
       <h2>Hello, I'm Muhammad Farid Zia</h2>
       <p>
