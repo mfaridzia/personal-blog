@@ -1,16 +1,16 @@
 <template>
   <header class="header">
     <div class="header__avatar">
-      <img src="/avatar/avatar.png" alt="photo" class="header__photo">
+      <img src="/avatar/new-avatar.jpg" alt="photo" class="header__photo">
     </div>
     <div class="header__profile">
       <div class="header__profile--text">
         <nuxt-link to="/" class="header__profile--link">
           <h1>Muhammad Farid Zia</h1>
         </nuxt-link>
-      </div>
+      </div>   
       <div class="header__profile--desc">
-        <p>Frontend Developer who like to write about personal opinions</p>
+        <p>Frontend Engineer who like to write about personal opinions</p>
       </div>
     </div>
   </header>

@@ -13,15 +13,17 @@
       <br>
 
       <h2>Careers</h2>
-      <p>Freelancer as a Frontend Developer (most work with JavaScript, Vue.js, etc)</p>
+      <p>Frontend Engineer (most work with JavaScript, Vue, React, etc)</p>
       <br>
 
       <h2>What are you doing now?</h2>
-      <p>Still learning about Svelte and things related to Frontend and JavaScript</p>
+      <p>
+        Still working on my thesis/final project (yeah I hope at the end of this December, my thesis can be completed)
+      </p>
       <br>
 
       <h2>Anything else</h2>
-      <p>Hmm, for now maybe that's it</p>
+      <p>Hmm, To be announced (tba)...</p>
       <br>
       <br>
       <br>

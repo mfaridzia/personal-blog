@@ -7,7 +7,7 @@
       I'm Muhammad Farid Zia
     </h1>
     <h2 class="home__descjob">
-      Frontend Developer who like to write about personal opinions
+      Frontend Engineer who like to write about personal opinions
     </h2>
 
     <p class="home__description">
