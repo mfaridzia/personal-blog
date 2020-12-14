@@ -8,14 +8,12 @@
       <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
       <!-- <nuxt-link to="/blog" class="blog-post">Back to Home</nuxt-link> -->
     </div>
-
     <MainFooter />
   </div>
 </template>
 
 <script>
 /* eslint-disable */
-
 import DynamicMarkdown from '~/components/Markdown/DynamicMarkdown.vue'
 
 export default {

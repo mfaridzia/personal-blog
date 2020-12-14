@@ -5,9 +5,7 @@
         This page describes what I'm doing now, so you can know what I'm doing
         without having to ask directly.
       </p>
-      <p>
-        <br>
-      </p>
+      <p> <br> </p>
       <h2>Living</h2>
       <p>Bandung, West Java. Indonesia.</p>
       <br>
@@ -40,7 +38,6 @@
 
 <script>
 /* eslint-disable */
-
 export default {
   head () {
     const title = 'Muhammad Farid Zia - Now'

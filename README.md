@@ -1,6 +1,9 @@
-# personal-blog
+# My Personal Web & Blog
 
-> personal blog
+## Tools
+ - Vue.js
+ - Nuxt
+ - Markdown
 
 ## Build Setup
 

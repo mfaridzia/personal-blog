@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- Test menu navigasi, masih belum fix -->
+    <!-- Test navigation menu -->
     <div class="navigation">
       <div class="navigation__condition">
         <button v-if="isShow == false" class="nav__show" @click="isShow = true">
@@ -33,7 +33,6 @@
         </li>
       </ul>
     </div>
-
     <div class="container default">
       <nuxt />
     </div>
@@ -42,7 +41,6 @@
 
 <script>
 /* eslint-disable */
-
 export default {
   data() {
     return {

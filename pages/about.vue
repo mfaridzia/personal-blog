@@ -51,7 +51,6 @@
 
 <script>
 /* eslint-disable */
-
 export default {
   head () {
     const title = 'Muhammad Farid Zia - About'

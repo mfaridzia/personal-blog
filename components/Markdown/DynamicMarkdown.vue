@@ -15,15 +15,13 @@ export default {
 <style scoped>
 p {
   line-height: 33px;
-   font-size: 1.1rem;
-   font-weight: 100;
-   margin-left: -22px;
+  font-size: 1.1rem;
+  font-weight: 100;
+  margin-left: -22px;
 }
-
 h2, h3, h4 {
   margin-left: -22px;
 }
-
 @media screen and (min-width: 501px) and (max-width:1000px) {
   p {
     font-size: 16px;

@@ -1,7 +1,6 @@
 <template>
   <div>
     <MainHeader />
-    
     <div class="container">
       <div v-for="post in posts" :key="post.slug" class="post">
         <div class="post__article">
@@ -17,7 +16,6 @@
         </div>
       </div>
     </div>
-
     <MainFooter />
   </div>
 </template>

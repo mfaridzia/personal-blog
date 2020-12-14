@@ -1,9 +1,7 @@
 <template>
   <footer class="footer">
     Copyright © {{ new Date().getFullYear() }} - Made with 
-    <span style="color: #e25555;">
-      &#9829;
-    </span> 
+    <span class="footer-love-icon"> &#9829; </span> 
     in Bandung, Indonesia by
     <a href="https://github.com/mfaridzia" target="_blank" rel="noopener">
       Muhammad Farid Zia
@@ -16,6 +14,9 @@
   width: 100%;
   margin: 40px auto 30px 40px;
   text-align: left;
+}
+.footer-love-icon {
+  color: #e25555;
 }
 a {
   color: #000;
