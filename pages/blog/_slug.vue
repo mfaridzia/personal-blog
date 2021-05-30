@@ -5,7 +5,7 @@
         {{ title }}
       </h1>
       <span class="content__date" style="color: #777;"> 
-        Written by Muhammad Farid Zia on {{ date }} about {{ category }}
+        Published on {{ date }} in {{ category }}
       </span>
       <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
       <!-- <nuxt-link to="/blog" class="blog-post">Back to Home</nuxt-link> -->
@@ -109,13 +109,16 @@ div {
   .content__title {
     font-size: 30px;
   }
+  .content__date {
+    font-size: 12px;
+  }
   .footer {
     margin-bottom: -20px !important;
   }
 }
 @media screen and (min-width: 200px) and (max-width: 500px) {
   .slug {
-    width: 80vw;
+    width: 85vw;
     margin: 50px auto 5px;
   }
   p {
@@ -123,6 +126,9 @@ div {
   }
   .content__title {
     font-size: 30px;
+  }
+  .content__date {
+    font-size: 12px;
   }
   .footer {
     margin-bottom: -20px !important;
