@@ -1,16 +1,17 @@
 <template>
-  <div>
+  <div class="navigation-wrapper">
     <!-- Test navigation menu -->
     <div class="navigation">
-      <div class="navigation__condition">
+      <!-- <div class="navigation__condition">
         <button v-if="isShow == false" class="nav__show" @click="isShow = true">
           ☰
         </button>
         <button v-else class="nav__hide" @click="isShow = false">
           &#10005;
         </button>
-      </div>
-      <ul v-if="isShow == true" class="navigation__menu">
+      </div> -->
+      <!-- <ul v-if="isShow == true" class="navigation__menu"> -->
+      <ul class="navigation__menu">
         <li>
           <nuxt-link to="/">
             Home
@@ -44,7 +45,7 @@
 export default {
   data() {
     return {
-      isShow: false
+      // isShow: false
     }
   }
 }
@@ -61,9 +62,10 @@ export default {
   background: #fff;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   position: fixed;
   top: 0px;
-  left: 0px;
+  left: 200px;
 }
 .navigation ul {
   list-style: none;
@@ -72,12 +74,13 @@ export default {
   justify-content: flex-start;
 }
 .navigation ul li {
-  margin: 10px 10px;
+  margin: 25px 15px;
 }
 .navigation ul li a {
   color: #000;
   text-decoration: none;
   font-size: 14px;
+  font-weight: bold;
   text-transform: capitalize;
   font-family: Montserrat;
 }
@@ -105,6 +108,12 @@ export default {
 .navigation__condition .nav__hide:hover {
   background-color: #202020;
   color: #fff;
+}
+
+@media screen and (max-width: 760px) {
+  .navigation {
+    left: 0px;
+  }
 }
 </style>
 

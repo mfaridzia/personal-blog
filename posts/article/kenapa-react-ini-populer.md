@@ -1,8 +1,9 @@
 ---
-title: Kenapa React ini populer 
+title: Kenapa React Populer 
 slug: kenapa-react-ini-populer
-date: '6 Maret, 2019'
-short_description: Kenapa React ini populer dikalangan Frontend Developer
+date: 'March 6, 2019'
+category: 'React'
+short_description: Kenapa React begitu populer dikalangan para Frontend Developer
 ---
 
 Siapa yang nggak tau React.js, sebuah library keren untuk membuat design User Interface yang interaktif pada sebuah web, saya pikir hampir semua frontend developer di bumi ini tau siapa si React.js ini (udah kek manusia aja ya ehehe).

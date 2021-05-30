@@ -7,17 +7,16 @@
       I'm Muhammad Farid Zia
     </h1>
     <h2 class="home__descjob">
-      Frontend Engineer who like to write about personal opinions
+      🇮🇩 • /Frən(t) ˈend Software Developer. Blog Writer. Likes to write about personal opinions.
     </h2>
 
     <p class="home__description">
-      Every day most spend time with things related to frontend. You can find me on
+      Every day most spend time with things related to frontend engineering. You can find me on
       <a
         href="https://github.com/mfaridzia"
         target="_blank"
-      >Github,</a>
-      <a href="https://twitter.com/Muhfaridzia" target="_blank">Twitter,</a>
-      <a href="https://www.facebook.com/MuhFaridZia" target="_blank">Facebook</a> and
+      >GitHub,</a>
+      <a href="https://twitter.com/Muhfaridzia" target="_blank">Twitter</a> and
       <a href="https://www.linkedin.com/in/muhfaridzia/" target="_blank">LinkedIn</a>
     </p>
   </div>
@@ -27,7 +26,7 @@
 /* eslint-disable */
 export default {
   head () {
-    const title = 'Muhammad Farid Zia - Frontend Developer and Storyteller'
+    const title = 'Muhammad Farid Zia - Frontend Engineer'
     const description = 'Home - I’m a Frontend Developer and Storyteller based in Indonesia'
     return {
       title: title,
@@ -57,11 +56,11 @@ export default {
 }
 .container__home {
   width: 50vw;
-  height: auto;
+  height: 30vh;
   background: transparent;
   box-sizing: border-box;
   padding: 20px;
-  margin: 140px auto;
+  margin: 110px auto;
 }
 .home__hello {
   font-size: 40px;
@@ -92,7 +91,7 @@ export default {
   .container__home {
     width: 80vw;
     background: transparent;
-    margin: 100px 10px 0px 30px;
+    margin: 100px px 0px 30px;
   }
   .home__hello,
   .home__name,

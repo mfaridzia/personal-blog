@@ -1,10 +1,12 @@
 <template>
   <div class="slug">
     <div class="content">
-      <span class="content__date" style="color: #777;">Written by Muhammad Farid Zia on {{ date }}</span>
       <h1 class="content__title">
         {{ title }}
       </h1>
+      <span class="content__date" style="color: #777;"> 
+        Written by Muhammad Farid Zia on {{ date }} about {{ category }}
+      </span>
       <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
       <!-- <nuxt-link to="/blog" class="blog-post">Back to Home</nuxt-link> -->
     </div>
@@ -26,6 +28,7 @@ export default {
       title: data.title,
       slug: data.slug,
       date: data.date,
+      category: data.category,
       description: data.short_description,
       renderFunc: fileContent.vue.render,
       staticRenderFuncs: fileContent.vue.staticRenderFns
@@ -64,8 +67,8 @@ export default {
 
 <style scoped>
 .slug {
-  width: 50vw;
-  margin: 50px auto;
+  width: 49vw;
+  margin: 50px auto 35px;
   background: transparent;
 }
 div {
@@ -73,17 +76,22 @@ div {
   margin-left: 12px;
   min-height: 60vh;
 }
+.content {
+  margin-bottom: 10px;
+}
 .blog-post {
   font-size: 15px;
   text-decoration: none;
 }
 .content__title {
-  margin: 10px 0px -20px -12px;
+  margin: 10px 0px 5px -12px;
+  font-size: 36px;
 }
 .content__date {
   margin-left: -10px;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: normal;
 }
 .footer {
   margin-left: 0px !important;
@@ -93,13 +101,13 @@ div {
 @media screen and (min-width: 501px) and (max-width: 1000px) {
   .slug {
     width: 80vw;
-    margin: 60px auto;
+    margin: 50px auto 5px;
   }
   p {
     font-size: 16px;
   }
   .content__title {
-    font-size: 25px;
+    font-size: 30px;
   }
   .footer {
     margin-bottom: -20px !important;
@@ -108,13 +116,13 @@ div {
 @media screen and (min-width: 200px) and (max-width: 500px) {
   .slug {
     width: 80vw;
-    margin: 60px auto;
+    margin: 50px auto 5px;
   }
   p {
     font-size: 16px;
   }
   .content__title {
-    font-size: 25px;
+    font-size: 30px;
   }
   .footer {
     margin-bottom: -20px !important;

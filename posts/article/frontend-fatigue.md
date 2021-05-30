@@ -1,7 +1,8 @@
 ---
 title: Frontend Fatigue
 slug: frontend-fatigue
-date: '21 Februari, 2019'
+date: 'February 21, 2019'
+category: 'Frontend, JavaScript'
 short_description: Mencoba untuk tetap survive dalam ekosistem pengembangan frontend
 ---
 

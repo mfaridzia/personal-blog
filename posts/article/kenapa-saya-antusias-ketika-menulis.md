@@ -1,7 +1,8 @@
 ---
 title: Kenapa saya antusias ketika menulis
 slug: kenapa-saya-antusias-ketika-menulis
-date: '3 Maret, 2019'
+date: 'March 3, 2019'
+category: 'Life, Writing,'
 short_description: Berbagi ke orang lain melalui sebuah tulisan.
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Semua butuh proses, jangan hanya mau instan saja
 slug: semua-butuh-proses
-date: '19 April, 2019'
+date: 'April 19, 2019'
+category: 'Life'
 short_description: Semua butuh proses, jangan berharap yg instan saja
 ---
 

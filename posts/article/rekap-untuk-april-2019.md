@@ -1,7 +1,8 @@
 ---
 title: Rekap untuk bulan April 2019
 slug: rekap-untuk-april-2019
-date: '1 Mei, 2019'
+date: 'May 01, 2019'
+category: 'Life'
 short_description: Rekap singkat untuk bulan april 2019
 ---
 

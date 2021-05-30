@@ -36,7 +36,7 @@ export default {
     })
   },
   head () {
-    const title = 'Muhammad Farid Zia | Frontend Developer & Storyteller'
+    const title = 'Blog - Muhammad Farid Zia'
     const description = 'A blog by Muhammad Farid Zia'
     return {
       title: title,
@@ -71,7 +71,7 @@ export default {
 .container {
   width: 50vw;
   background: transparent;
-  margin: 40px auto;
+  margin: 35px auto;
   min-height: 55vh;
   display: flex;
   flex-direction: column;

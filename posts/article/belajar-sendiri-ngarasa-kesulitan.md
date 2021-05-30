@@ -1,7 +1,8 @@
 ---
 title: Belajar sendiri ngerasa kesulitan?
 slug: belajar-sendiri-ngarasa-kesulitan
-date: '13 Maret, 2019'
+date: 'March 13 2019'
+category: 'Learning'
 short_description: Kenapa belajar sendiri itu terkadang terasa sulit?
 ---
 

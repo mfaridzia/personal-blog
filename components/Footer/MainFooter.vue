@@ -12,14 +12,15 @@
 <style scoped>
 .footer {
   width: 100%;
-  margin: 40px auto 30px 40px;
+  margin: 40px auto -20px 40px;
   text-align: left;
+  color: rgb(102, 102, 102);
 }
 .footer-love-icon {
   color: #e25555;
 }
 a {
-  color: #000;
+  color: rgb(102, 102, 102);
 }
 @media screen and (min-width: 501px) and (max-width: 1000px) {
   .footer {

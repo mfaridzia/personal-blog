@@ -1,7 +1,8 @@
 ---
 title: Berpapasan
 slug: berpapasan
-date: '02 November, 2019'
+date: 'November 02, 2019'
+category: 'Life'
 short_description: Mungkin hanya kebetulan aja berpapasannya
 ---
 

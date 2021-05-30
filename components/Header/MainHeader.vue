@@ -10,7 +10,7 @@
         </nuxt-link>
       </div>   
       <div class="header__profile--desc">
-        <p>Frontend Engineer who like to write about personal opinions</p>
+        <p>🇮🇩 • /Frən(t) ˈend Software Developer. Blog Writer. Likes to write about personal opinions.</p>
       </div>
     </div>
   </header>

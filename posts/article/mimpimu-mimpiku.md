@@ -1,7 +1,8 @@
 ---
 title: Mimpimu dan Mimpiku
 slug: mimpimu-mimpiku
-date: '23 Februari, 2020'
+date: 'February 23, 2020'
+category: 'Life'
 short_description: Kita semua pasti punya mimpi terbesar dalam hidup
 ---
 

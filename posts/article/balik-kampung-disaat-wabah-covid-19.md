@@ -1,7 +1,8 @@
 ---
 title: Balik Kampung Disaat Wabah Covid-19
 slug: balik-kampung-disaat-wabah-covid-19
-date: '22 Juni, 2020'
+date: 'June 22, 2020'
+category: 'Life'
 short_description: Pengalaman yang gak bakalan gw lupain seumur hidup
 ---
 

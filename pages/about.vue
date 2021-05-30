@@ -4,12 +4,12 @@
       <div class="about__photo">
         <img src="/avatar/new-avatar.jpg" alt="photo">
       </div>
-      <h2>Hello, I'm Muhammad Farid Zia</h2>
+      <!-- <h2>Hello, I'm Muhammad Farid Zia</h2> -->
       <p>
         <!-- An ordinary young man who has many dreams, a person who is very passionate about
         software development, especially in the field of web technology such as JavaScript, 
         Vue.js, React.js, Node.js and many more.-->
-        Very passionate about software development especially in the field of web technologies
+        Hello, I am Muhammad Farid Zia, very passionate about software development especially in the field of web technologies
         such as JavaScript, Vue.js, React.js, Node.js and many more.
       </p>
       <br>
@@ -30,20 +30,19 @@
       <p>
         Oh yeah btw, if you want to know what I'm doing now,
         you can visit this
-        <nuxt-link to="/now">
+        <nuxt-link to="/now" class="about-page">
           page
         </nuxt-link>and you can contact me on the telegram
-        <a href="https://telegram.me/muhfaridzia">@muhfaridzia</a>
+        <a class="about-telegram" href="https://telegram.me/muhfaridzia">
+          @muhfaridzia
+        </a>
       </p>
-      <br>
-      <br>
-      <br>
 
-      <p class="backto-btn">
+      <!-- <p class="backto-btn">
         <nuxt-link to="/" class="backto">
           Back to Home
         </nuxt-link>
-      </p>
+      </p> -->
     </div>
     <MainFooter />
   </div>
@@ -53,7 +52,7 @@
 /* eslint-disable */
 export default {
   head () {
-    const title = 'Muhammad Farid Zia - About'
+    const title = 'About - Muhammad Farid Zia'
     const description = 'About - I’m a Frontend Developer and Storyteller based in Indonesia'
     return {
       title: title,
@@ -85,10 +84,9 @@ export default {
   font-family: 'Source Sans Pro', sans-serif;
 }
 .container {
-  width: 50vw;
+  width: 51vw;
   background: transparent;
-  margin: 80px auto;
-  min-height: 55vh;
+  margin: 100px auto 20px;
   display: flex;
   flex-direction: column;
 }
@@ -122,6 +120,9 @@ export default {
   letter-spacing: 1px;
   line-height: 30px;
   text-align: justify;
+}
+.about-page, .about-telegram, .backto {
+  color: #000;
 }
 /* .backto-btn {
   display: flex;

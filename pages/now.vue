@@ -7,30 +7,28 @@
       </p>
       <p> <br> </p>
       <h2>Living</h2>
-      <p>Bandung, West Java. Indonesia.</p>
+      <p>Lombok, West Nusa Tenggara. Indonesia.</p>
       <br>
 
       <h2>Careers</h2>
-      <p>Frontend Engineer (most work with JavaScript, Vue, React, etc)</p>
+      <p>Frontend Software Engineer (most work with JavaScript, Vue, React, etc)</p>
       <br>
 
-      <h2>What are you doing now?</h2>
-      <p>
-        Still working on my thesis/final project (yeah I hope at the end of this December, my thesis can be completed)
-      </p>
+      <h2>What I currently learn</h2>
+      <p> 1. Svelte/SvelteKit </p>
+      <p> 2. Testing </p>
+      <p> 3. Xstate </p>
+      <p> 4. Serverless </p>
       <br>
 
       <h2>Anything else</h2>
-      <p>Hmm, To be announced (tba)...</p>
-      <br>
-      <br>
-      <br>
+      <p>Will be announced later.</p>
 
-      <p class="backto-btn">
+      <!-- <p class="backto-btn">
         <nuxt-link to="/" class="backto">
           Back to Home
         </nuxt-link>
-      </p>
+      </p> -->
     </div>
     <MainFooter />
   </div>
@@ -40,7 +38,7 @@
 /* eslint-disable */
 export default {
   head () {
-    const title = 'Muhammad Farid Zia - Now'
+    const title = 'Now - Muhammad Farid Zia'
     const description = 'Now - I’m a Frontend Developer and Storyteller based in Indonesia'
     return {
       title: title,
@@ -72,10 +70,9 @@ export default {
   font-family: 'Source Sans Pro', sans-serif;
 }
 .container {
-  width: 50vw;
+  width: 51vw;
   background: transparent;
-  margin: 80px auto;
-  min-height: 55vh;
+  margin: 100px auto 20px;
   display: flex;
   flex-direction: column;
 }
@@ -101,6 +98,9 @@ export default {
   letter-spacing: 0px;
   line-height: 30px;
   text-align: justify;
+}
+.backto {
+  color: #000;
 }
 
 .footer {

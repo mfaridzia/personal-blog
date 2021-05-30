@@ -1,7 +1,8 @@
 ---
 title: Sikap bodo amat-mu
 slug: sikap-bodo-amat
-date: '7 Maret, 2019'
+date: 'March 07, 2019'
+category: 'Life'
 short_description: Bersikap bodo amat sama hal-hal yang nggak penting
 ---
 
