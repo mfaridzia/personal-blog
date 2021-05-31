@@ -61,6 +61,6 @@ Dan ya ditambah lagi yang nulis ini bukan siapa-siapa wkwk, jadi orang juga miki
 <br/>
 
 <p>
-Thanks buat yang udah mau baca love you guys :v
+Terimakasih buat yang udah mau baca tulisan singkat ini.
 </p>
 <br/><br/>

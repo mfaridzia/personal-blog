@@ -6,10 +6,7 @@ category: 'Life'
 short_description: Semua butuh proses, jangan berharap yg instan saja
 ---
 
-Sudah agak lama rasanya saya nggak nulis, karena kesibukan di dunia nyata dan juga karena nggak tau mau nulis apaan hehe.
-<br/><br/>
-
-Jadi malam ini saya mau nulis dikit aja sih, lumayan buat bikin github ada ijo ijo nya haha, canda aja deng xd.
+Sudah agak lama rasanya saya nggak nulis, karena kesibukan di dunia nyata dan juga karena nggak tau mau nulis apaan hehe. Jadi malam ini saya mau nulis dikit aja sih, lumayan buat bikin github ada ijo ijo nya haha, canda aja deng xd.
 <br/><br/>
 
 Sesuai dengan judul nya saya mau bahas tentang sebuah proses, yoi proses dalam belajar tentunya ya, berdasarkan apa yang sudah saya amati selama beberapa tahun ini.
