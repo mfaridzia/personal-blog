@@ -1,8 +1,8 @@
 <template>
   <footer class="footer">
-    Copyright © {{ new Date().getFullYear() }} - Made with 
+    © {{ new Date().getFullYear() }} - Made with 
     <span class="footer-love-icon"> &#9829; </span> 
-    in Bandung, Indonesia by
+    in [Bandung, Lombok], Indonesia by
     <a href="https://github.com/mfaridzia" target="_blank" rel="noopener">
       Muhammad Farid Zia
     </a>
