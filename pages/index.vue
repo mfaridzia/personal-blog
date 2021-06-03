@@ -65,6 +65,7 @@ export default {
 .home__hello {
   font-size: 40px;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 .home__name {
   font-size: 50px;
