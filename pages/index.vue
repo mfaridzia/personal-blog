@@ -95,7 +95,7 @@ export default {
     padding: 5px;
   }
   .home__hello {
-    margin-top: 25px;
+    margin-top: 35px;
   }
   .home__hello,
   .home__name,
