@@ -16,6 +16,7 @@
 
 <script>
 /* eslint-disable */
+import Prism from '~/plugins/prism'
 import DynamicMarkdown from '~/components/Markdown/DynamicMarkdown.vue'
 
 export default {
@@ -49,6 +50,9 @@ export default {
   },
   data() {
     return {}
+  },
+  mounted() {
+    Prism.highlightAll()
   },
   computed: {
     ogImage() {

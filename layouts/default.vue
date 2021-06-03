@@ -66,6 +66,7 @@ export default {
   position: fixed;
   top: 0px;
   left: 200px;
+  z-index: 2;
 }
 .navigation ul {
   list-style: none;

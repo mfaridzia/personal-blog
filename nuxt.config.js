@@ -55,7 +55,8 @@ module.exports = {
   */
   // plugins: ['~/plugins/lazyload'],
   plugins: [
-    { src: '~/plugins/lazyload', ssr: false }
+    { src: '~/plugins/lazyload', ssr: false },
+    { src: '~/plugins/prism', ssr: false }
   ],
   /*
   ** Nuxt.js modules
@@ -96,7 +97,7 @@ module.exports = {
         include: path.resolve(__dirname, 'posts'),
         options: {
           vue: {
-            root: 'content-markdown'
+            root: 'dynamicMarkdown'
           }
         }
       })

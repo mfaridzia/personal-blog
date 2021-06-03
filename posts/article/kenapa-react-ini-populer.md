@@ -35,12 +35,29 @@ Nah ini pasti banyak yang kaget dan bertanya tanya mungkin kek ini: Apa hubungan
 Kenapa saya bilang kalo dari PHP ke React ini pindahnya lebih mudah adalah karena di React itu ada yang namanya jsx, kalo yang dah biasa ngoprek ngoprek React sih pasti udah nggak asing lagi lah ya ama jsx. Jadi saya ngerasa kalo ngoding React pake jsx (dan ya saya pikir orang pada pake jsx kalo ngoding React) itu rasanya kek mirip mirip pas ngoding PHP native juga.
 <br/> <br/>
 
-Coba kita lihat contoh kodingan sederhana React dan PHP dibawah <br/><br/>
+Coba kita lihat contoh kodingan sederhana React dan PHP dibawah ini. <br/>
 <center>
 
-<img style="width: 310px;" src="./img-post/react-and-php.png" alt="php-and-react">
+```javascript
+const hello = 'Hello, React.js';
+ReactDOM.render(
+  <h2> {hello} </h2>,
+  document.getElementById('app')
+);
+```
 
-<span style="font-size: 14px;"> Contoh kode React & PHP </span>
+```php
+<?php 
+  $hello = 'Hello, I am PHP';
+  echo '<h2>'. $hello .'</h2>';
+?>
+```
+
+<!-- <img style="width: 310px;" src="./img-post/react-and-php.png" alt="php-and-react"> -->
+
+<!-- <span style="font-size: 13px; font-weight: bold;"> 
+  Contoh kode React & PHP 
+</span> -->
 
 </center>
 </p>
