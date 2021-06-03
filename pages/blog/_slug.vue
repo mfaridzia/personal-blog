@@ -5,7 +5,7 @@
         {{ title }}
       </h1>
       <span class="content__date" style="color: #777;"> 
-        Published on {{ date }} in {{ category }}
+        Published on {{ date }} in {{ category }} • <ReadingTime :content="staticRenderFuncs" />
       </span>
       <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
       <!-- <nuxt-link to="/blog" class="blog-post">Back to Home</nuxt-link> -->
@@ -18,21 +18,25 @@
 /* eslint-disable */
 import Prism from '~/plugins/prism'
 import DynamicMarkdown from '~/components/Markdown/DynamicMarkdown.vue'
-
+import ReadingTime from '~/components/ReadingTime.vue'
 export default {
   name: 'DetailPage',
-  async asyncData({ params }) {
-    const fileContent = await import(`~/posts/article/${params.slug}.md`)
-    const data = fileContent.attributes
-    return {
-      name: params.slug,
-      title: data.title,
-      slug: data.slug,
-      date: data.date,
-      category: data.category,
-      description: data.short_description,
-      renderFunc: fileContent.vue.render,
-      staticRenderFuncs: fileContent.vue.staticRenderFns
+  async asyncData({ params, redirect}) {
+    try {
+      const fileContent = await import(`~/posts/article/${params.slug}.md`)
+      const data = fileContent.attributes
+      return {
+        name: params.slug,
+        title: data.title,
+        slug: data.slug,
+        date: data.date,
+        category: data.category,
+        description: data.short_description,
+        renderFunc: fileContent.vue.render,
+        staticRenderFuncs: fileContent.vue.staticRenderFns
+      }
+    } catch (e) {
+      redirect("/notfound")
     }
   },
   head () {
@@ -64,6 +68,7 @@ export default {
   },
   components: {
     DynamicMarkdown,
+    ReadingTime,
     MainFooter: () => import('@/components/Footer/MainFooter.vue')
   }
 }
@@ -101,7 +106,6 @@ div {
   margin-left: 0px !important;
   margin-bottom: -50px !important;
 }
-
 @media screen and (min-width: 501px) and (max-width: 1000px) {
   .slug {
     width: 80vw;
