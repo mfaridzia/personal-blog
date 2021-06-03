@@ -109,18 +109,21 @@ export default {
 
 @media screen and (max-width: 800px) {
   .container {
-    width: 90vw;
-    background: transparent;
+    width: 91%;
   }
   .now__desc {
     font-size: 19px !important;
   }
   .now h2 {
     font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .now p {
     font-size: 14px;
     text-align: left;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 }
 </style>

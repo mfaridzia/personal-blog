@@ -126,7 +126,7 @@ div {
 }
 @media screen and (min-width: 200px) and (max-width: 500px) {
   .slug {
-    width: 85vw;
+    width: 91%;
     /* margin: 50px auto 5px; */
     margin: 80px auto 5px;
   }

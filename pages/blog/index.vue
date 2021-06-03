@@ -103,7 +103,7 @@ export default {
 @media screen and (min-width: 501px) and (max-width:1000px) {
   .container {
     background: transparent;
-    width: 90vw;
+    width: 100%;
   }  
   .post__title h1 {
     font-size: 1.5rem;
@@ -113,7 +113,7 @@ export default {
 @media screen and (min-width: 200px) and (max-width: 500px) {
   .container {
     background: transparent;
-    width: 90vw;
+    width: 100%;
   }  
   .post__title h1 {
     font-size: 1.5rem;

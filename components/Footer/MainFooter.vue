@@ -2,10 +2,10 @@
   <footer class="footer">
     © {{ new Date().getFullYear() }} - Made with 
     <span class="footer-love-icon"> &#9829; </span> 
-    in [Bandung, Lombok], Indonesia by
-    <a href="https://github.com/mfaridzia" target="_blank" rel="noopener">
+    in [Bandung, Lombok], Indonesia
+    <!-- <a href="https://github.com/mfaridzia" target="_blank" rel="noopener">
       Muhammad Farid Zia
-    </a>
+    </a> -->
   </footer>
 </template>
 
@@ -24,19 +24,22 @@ a {
 }
 @media screen and (min-width: 501px) and (max-width: 1000px) {
   .footer {
-    width: 80%;
+    width: 100%;
+    margin: 40px auto -20px 10px;
     font-size: 12px;
   }
 }
 @media screen and (min-width: 200px) and (max-width: 500px) {
   .footer {
-    width: 80%;
+    width: 100%;
+    margin: 40px auto -20px 10px;
     font-size: 12px;
   }
 }
 @media screen and (max-width: 380px) {
   .footer {
-    width: 80%;
+    width: 100%;
+    margin: 40px auto -20px 10px;
     font-size: 12px;
   }
 }

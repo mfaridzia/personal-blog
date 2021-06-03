@@ -89,9 +89,13 @@ export default {
 
 @media screen and (max-width: 500px) {
   .container__home {
-    width: 80vw;
+    width: 91%;
     background: transparent;
     margin: 100px px 0px 30px;
+    padding: 5px;
+  }
+  .home__hello {
+    margin-top: 50px;
   }
   .home__hello,
   .home__name,

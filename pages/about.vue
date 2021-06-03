@@ -146,15 +146,16 @@ export default {
 
 @media screen and (max-width: 800px) {
   .container {
-    width: 90vw;
-    background: transparent;
+    width: 91%;
   }
   .about h2 {
     font-size: 18px;
   }
   .about p {
     font-size: 14px;
-    text-align: left;
+    text-align: justify;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 }
 </style>

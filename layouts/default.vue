@@ -115,6 +115,17 @@ export default {
   .navigation {
     left: 0px;
   }
+  .navigation ul li {
+    margin: 25px 20px;
+  }
+}
+@media screen and (max-width: 311px) {
+  .navigation {
+    left: 0px;
+  }
+  .navigation ul li {
+    margin: 25px 10px;
+  }
 }
 </style>
 
