@@ -2,7 +2,7 @@
 title: Rasa Malas Mengganggu Produktivitas
 slug: rasa-malas-mengganggu-produktivitas
 date: 'February 19, 2019'
-category: 'Life, Productivity'
+category: 'Productivity'
 short_description: Kemalasan bisa membunuh produktivitas jika dibiarkan begitu saja dan tidak berusaha untuk dilawan.
 ---
 

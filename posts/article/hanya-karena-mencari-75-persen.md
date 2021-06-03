@@ -2,7 +2,7 @@
 title: Hanya karena mencari 75%
 slug: hanya-karena-mencari-75-persen
 date: 'April 1, 2019'
-category: 'Learning, Class'
+category: 'Learning'
 short_description: Menghitung entah berapa hari saya tidak masuk kuliah
 ---
 

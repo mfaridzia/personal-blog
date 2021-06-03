@@ -2,7 +2,7 @@
 title: Belajar Googling dengan Baik Untuk Pemrogram
 slug: belajar-googling-untuk-pemrogram
 date: 'June 1, 2021'
-category: 'Learning, Programming'
+category: 'Programming'
 short_description: Karena googling itu bukan hanya sekedar tentang ngetik asal-asalan saja.
 ---
 

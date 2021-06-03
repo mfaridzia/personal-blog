@@ -29,18 +29,12 @@ a {
     font-size: 12px;
   }
 }
-@media screen and (min-width: 200px) and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .footer {
     width: 100%;
-    margin: 40px auto -20px 10px;
+    margin: 40px 0px -20px -5px;
     font-size: 12px;
-  }
-}
-@media screen and (max-width: 380px) {
-  .footer {
-    width: 100%;
-    margin: 40px auto -20px 10px;
-    font-size: 12px;
+    text-align: center;
   }
 }
 </style>
