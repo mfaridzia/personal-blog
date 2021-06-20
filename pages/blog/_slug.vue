@@ -8,7 +8,6 @@
         Published on {{ date }} in {{ category }} • <ReadingTime :content="staticRenderFuncs" />
       </span>
       <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
-      <!-- <nuxt-link to="/blog" class="blog-post">Back to Home</nuxt-link> -->
     </div>
     <MainFooter />
   </div>
@@ -60,7 +59,7 @@ export default {
   },
   computed: {
     ogImage() {
-      return
+      return "https://muhfaridzia.netlify.app/avatar/new-avatar.jpg"
     },
     pageTitle () {
       return this.title + ' – Muhammad Farid Zia';

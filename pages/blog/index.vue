@@ -52,7 +52,7 @@ export default {
   },
   computed: {
     ogImage() {
-      return
+      return "https://muhfaridzia.netlify.app/avatar/new-avatar.jpg"
     }
   },
   components: {

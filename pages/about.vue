@@ -4,11 +4,7 @@
       <div class="about__photo">
         <img src="/avatar/new-avatar.jpg" alt="photo">
       </div>
-      <!-- <h2>Hello, I'm Muhammad Farid Zia</h2> -->
       <p>
-        <!-- An ordinary young man who has many dreams, a person who is very passionate about
-        software development, especially in the field of web technology such as JavaScript, 
-        Vue.js, React.js, Node.js and many more.-->
         Hello, I am Muhammad Farid Zia, very passionate about software development especially in the field of web technologies
         such as JavaScript, Vue.js, React.js, Node.js and many more.
       </p>
@@ -37,12 +33,6 @@
           @muhfaridzia
         </a>
       </p>
-
-      <!-- <p class="backto-btn">
-        <nuxt-link to="/" class="backto">
-          Back to Home
-        </nuxt-link>
-      </p> -->
     </div>
     <MainFooter />
   </div>
@@ -68,7 +58,7 @@ export default {
   },
   computed: {
     ogImage() {
-      return
+      return "https://muhfaridzia.netlify.app/avatar/new-avatar.jpg"
     }
   },
   components: {
@@ -117,7 +107,7 @@ export default {
   margin-right: 40px;
   font-size: 19px;
   color: #777;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   line-height: 30px;
   text-align: justify;
 }

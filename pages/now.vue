@@ -2,8 +2,7 @@
   <div class="container">
     <div class="now">
       <p class="now__desc">
-        This page describes what I'm doing now, so you can know what I'm doing
-        without having to ask directly.
+        Inspired by <a class="now_link" href="https://sive.rs/nowff"> Derek Sivers </a>, This page explains where I live, work, projects, and what new things I'm currently learning about technology or things outside of technology.
       </p>
       <p> <br> </p>
       <h2>Living</h2>
@@ -11,24 +10,19 @@
       <br>
 
       <h2>Careers</h2>
-      <p>Frontend Software Engineer (most work with JavaScript, Vue, React, etc)</p>
+      <p>Frontend Software Engineer (mostly works with JavaScript, Vue, React, etc)</p>
       <br>
 
       <h2>What I currently learn</h2>
-      <p> 1. Svelte/SvelteKit </p>
-      <p> 2. Testing </p>
-      <p> 3. Xstate </p>
-      <p> 4. Serverless </p>
+      <p> 1. Writing </p>
+      <p> 2. Svelte/SvelteKit </p>
+      <p> 3. Testing </p>
+      <p> 4. Xstate </p>
+      <p> 5. Serverless </p>
       <br>
 
       <h2>Anything else</h2>
-      <p>Will be announced later.</p>
-
-      <!-- <p class="backto-btn">
-        <nuxt-link to="/" class="backto">
-          Back to Home
-        </nuxt-link>
-      </p> -->
+      <p>I will write about it later.</p>
     </div>
     <MainFooter />
   </div>
@@ -54,7 +48,7 @@ export default {
   },
   computed: {
     ogImage() {
-      return
+      return "https://muhfaridzia.netlify.app/avatar/new-avatar.jpg"
     }
   },
   components: {
@@ -79,6 +73,9 @@ export default {
 .now {
   box-sizing: border-box;
   margin-bottom: 30px;
+}
+.now_link {
+  color: black;
 }
 .now__desc {
   font-size: 25px !important;
