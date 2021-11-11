@@ -1,5 +1,6 @@
 /* eslint-disable */
 export default [
+  'penat',
   'belajar-googling-untuk-pemrogram',
   'balik-kampung-disaat-wabah-covid-19',
   'mimpimu-mimpiku',
