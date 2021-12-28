@@ -22,7 +22,7 @@ Akhirnya setelah berjuang kurang lebih 4.5 tahun di jurusan Teknik Informatika, 
 Tapi Alhamdulillahnya selama mengerjakan tugas akhir ini lumayan lancar, jadi bisa selesai dalam dua semester saja, tidak kurang tidak lebih. Malah saya rasa lebih struggling ketika menjalani perkuliahan biasa daripada mengerjakan tugas akhir haha.
 <br><br>
 
-<img style="width: 100%; margin-left: -15px; object-fit:cover;" src="./img-post/persetujuan.png" alt="Minta Persetujuan">
+<img style="width: 100%; margin-left: -15px; object-fit:cover;" src="https://muhfaridzia.netlify.app/blog/img-post/persetujuan.png" alt="Minta Persetujuan">
 <center> 
 	<span style="font-size: 13px; margin: 0 auto;"> 
 		Minta Persetujuan Dosen Pembimbing 
@@ -40,8 +40,8 @@ Oh iya, kalau biasanya orang ketika wisuda itu foto-foto bersama keluarga besarn
 <br><br>
 
 <div style="display: flex; width: auto;">
-	<img style="width: 60%; margin-left: -50px; object-fit:cover;" src="./img-post/me2.jpeg" alt="Me">
-	<img style="width: 65%; position: relative; left: 10px; object-fit:cover;" src="./img-post/me.jpeg" alt="Me">
+	<img style="width: 60%; margin-left: -50px; object-fit:cover;" src="https://muhfaridzia.netlify.app/blog/img-post/me2.jpeg" alt="Me">
+	<img style="width: 65%; position: relative; left: 10px; object-fit:cover;" src="https://muhfaridzia.netlify.app/blog/img-post/me.jpeg" alt="Me">
 </div>
 <center> 
 	<span style="font-size: 13px; margin: 0 auto;"> 
@@ -58,7 +58,7 @@ Tentu saya bisa lulus kuliah ini atas bantuan dari Allah bukan karena kemampuan 
 Sebelum lulus kuliah dan saat itu sedang mengerjakan tugas akhir sebenarnya saya sudah mulai juga mencari pekerjaan, tapi karena memang saat itu masih mengerjakan tugas akhir jadi pikirannya tidak fokus, akhirnya memilih untuk fokus menyelesaikan tugas akhir dulu baru kemudian setelah itu bisa lebih tenang ketika mencari pekerjaan.
 <br><br>
 
-<img style="width: 100%; margin-left: -15px;" src="./img-post/kerja.jpg" alt="Mencari Pekerjaan">
+<img style="width: 100%; margin-left: -15px;" src="https://muhfaridzia.netlify.app/blog/img-post/kerja.jpg" alt="Mencari Pekerjaan">
 <center> 
 	<span style="font-size: 13px; margin: 0 auto;"> 
 		Mencari Pekerjaan
