@@ -1,5 +1,6 @@
 /* eslint-disable */
 export default [
+  'catatan-di-tahun-2021',
   'penat',
   'belajar-googling-untuk-pemrogram',
   'balik-kampung-disaat-wabah-covid-19',

@@ -1,5 +1,5 @@
 ---
-title: Kenapa React Populer 
+title: Kenapa React Populer
 slug: kenapa-react-ini-populer
 date: 'March 6, 2019'
 category: 'React'
@@ -36,18 +36,16 @@ Kenapa saya bilang kalo dari PHP ke React ini pindahnya lebih mudah adalah karen
 <br/> <br/>
 
 Coba kita lihat contoh kodingan sederhana React dan PHP dibawah ini. <br/>
+
 <center>
 
 ```javascript
-const hello = 'Hello, React.js';
-ReactDOM.render(
-  <h2> {hello} </h2>,
-  document.getElementById('app')
-);
+const hello = 'Hello, React.js'
+ReactDOM.render(<h2> {hello} </h2>, document.getElementById('app'))
 ```
 
 ```php
-<?php 
+<?php
   $hello = 'Hello, I am PHP';
   echo '<h2>'. $hello .'</h2>';
 ?>
@@ -55,8 +53,8 @@ ReactDOM.render(
 
 <!-- <img style="width: 310px;" src="./img-post/react-and-php.png" alt="php-and-react"> -->
 
-<!-- <span style="font-size: 13px; font-weight: bold;"> 
-  Contoh kode React & PHP 
+<!-- <span style="font-size: 13px; font-weight: bold;">
+  Contoh kode React & PHP
 </span> -->
 
 </center>
