@@ -9,7 +9,7 @@
       </span>
       <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
     </div>
-    <MainFooter />
+    <!-- <MainFooter /> -->
   </div>
 </template>
 
@@ -76,7 +76,7 @@ export default {
 <style scoped>
 .slug {
   width: 49vw;
-  margin: 50px auto 35px;
+  margin: 50px auto -30px;
   background: transparent;
 }
 div {
@@ -108,7 +108,7 @@ div {
 @media screen and (min-width: 501px) and (max-width: 1000px) {
   .slug {
     width: 80vw;
-    margin: 50px auto 5px;
+    margin: 50px auto -25px;
   }
   p {
     font-size: 16px;
@@ -127,7 +127,7 @@ div {
   .slug {
     width: 91%;
     /* margin: 50px auto 5px; */
-    margin: 80px auto 5px;
+    margin: 80px auto -25px;
   }
   p {
     font-size: 16px;

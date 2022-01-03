@@ -1,5 +1,5 @@
 <template>
-  <span> {{ readingTime }} min read </span>
+  <span style="color: #777"> {{ readingTime }} min read </span>
 </template>
 
 <script>

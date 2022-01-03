@@ -55,7 +55,7 @@ export default {
   font-family: 'Source Sans Pro', sans-serif;
 }
 .container__home {
-  width: 50vw;
+  width: 52vw;
   height: 30vh;
   background: transparent;
   box-sizing: border-box;
@@ -82,10 +82,10 @@ export default {
   font-size: 18px;
 }
 .home__description a {
-  color: #000;
+  color: #d3d5d6;
 }
 .home__description a:hover {
-  color: rgb(92, 92, 92);
+  color: #189ad3;
 }
 
 @media screen and (max-width: 500px) {

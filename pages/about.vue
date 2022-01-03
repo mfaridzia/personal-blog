@@ -106,13 +106,13 @@ export default {
   margin-left: 40px;
   margin-right: 40px;
   font-size: 19px;
-  color: #777;
+   color: #d3d5d6;
   letter-spacing: 0px;
   line-height: 30px;
   text-align: justify;
 }
 .about-page, .about-telegram, .backto {
-  color: #000;
+  color: #189ad3;
 }
 /* .backto-btn {
   display: flex;

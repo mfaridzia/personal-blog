@@ -43,11 +43,12 @@ export default {
   margin-top: 20px;
 }
 .header__profile--link {
-  color: #000;
+  color: #d3d5d6;
   text-decoration: none;
 }
 .header__profile--desc p {
   font-size: 16px;
+   color: #d3d5d6;
 }
 
 @media screen and (max-width: 380px) {

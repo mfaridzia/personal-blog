@@ -56,16 +56,18 @@ export default {
   margin: 0px;
   padding: 0px;
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: #1f2225;
+  color: #d3d5d6;
 }
 .navigation {
   width: 100%;
-  background: #fff;
+  background: #1f2225;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   position: fixed;
   top: 0px;
-  left: 200px;
+  left: 176px;
   z-index: 2;
 }
 .navigation ul {
@@ -78,7 +80,7 @@ export default {
   margin: 25px 15px;
 }
 .navigation ul li a {
-  color: #000;
+  color: #d3d5d6;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;

@@ -14,13 +14,13 @@
   width: 100%;
   margin: 40px auto -20px 40px;
   text-align: left;
-  color: rgb(102, 102, 102);
+  color: #d3d5d6;
 }
 .footer-love-icon {
   color: #e25555;
 }
 a {
-  color: rgb(102, 102, 102);
+  color: #d3d5d6;
 }
 @media screen and (min-width: 501px) and (max-width: 1000px) {
   .footer {

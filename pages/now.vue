@@ -75,13 +75,13 @@ export default {
   margin-bottom: 30px;
 }
 .now_link {
-  color: black;
+  color: #d3d5d6;
 }
 .now__desc {
   font-size: 25px !important;
 }
 .now h2 {
-  color: rgb(102, 102, 102);
+  color: #d3d5d6;
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 15px;
@@ -91,13 +91,13 @@ export default {
   margin-left: 40px;
   margin-right: 40px;
   font-size: 19px;
-  color: #777;
+  color: #d3d5d6;
   letter-spacing: 0px;
   line-height: 30px;
   text-align: justify;
 }
 .backto {
-  color: #000;
+  color: #d3d5d6;
 }
 
 .footer {
