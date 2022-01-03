@@ -83,7 +83,7 @@ Mulai lebih aware lagi dengan masalah kesehatan setelah kena GERD, gak enak soal
 Di tahun 2021 ini saya masih fokus buat memperbaiki pola hidup dan lebih menjaga pikiran saya juga. Dimulai dengan olahraga-olahraga ringan di halaman rumah juga tidak masalah sih, asal badan tetap bergerak dan tidak rebahan terus di kasur ya.
 <br><br>
 
-<blockquote style="font-size: 17px; line-height: 30px; color: rgba(0,0,0,.68); font-style: italic;">
+<blockquote style="font-size: 17px; line-height: 30px; color: rgba(0,0,0,.68); font-style: italic; color: #d3d5d6;">
 	Ketika sudah kena baru kita sadar kalau pola hidup yang sudah kita jalani itu kurang atau tidak baik. Jadi sebisa mungkin emang lebih aware lagi aja dengan masalah kesehatan ini. Gak ada ruginya!
 </blockquote>
 <br><br>
