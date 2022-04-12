@@ -1,5 +1,6 @@
 /* eslint-disable */
 export default [
+  'satu-bulan-di-efishery',
   'catatan-di-tahun-2021',
   'penat',
   'belajar-googling-untuk-pemrogram',
