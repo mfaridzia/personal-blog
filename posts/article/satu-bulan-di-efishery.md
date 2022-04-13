@@ -28,7 +28,7 @@ Tentu masih banyak lagi ya kelebihan jika dapat bekerja dari mana saja. Tapi kar
 <br/>
 <h3> Apply ke eFishery </h3>
 
-Karena saya sudah tertarik dengan kebijakan kerja WFA dari eFishery dan juga keunikan bisnisnya, maka saya putuskan untuk apply ke eFishery sebagai Insiyur Ujung Depan atau Frontend Engineer kalau tidak salah pada bulan February 2022. Setelah sekian purnama menunggu, akhirnya saya di kontak juga oleh Mba Amel, Yayyy. 
+Karena saya sudah tertarik dengan kebijakan kerja WFA dari eFishery dan juga keunikan bisnisnya, maka saya putuskan untuk apply ke eFishery sebagai Insinyur Ujung Depan atau Frontend Engineer kalau tidak salah pada bulan February 2022. Setelah sekian purnama menunggu, akhirnya saya di kontak juga oleh Mba Amel, Yayyy. 
 
 <br/>
 
@@ -38,11 +38,11 @@ Tahap awal tentunya seperti biasa Interview dengan HR/Recruiter(Mba Amel), setel
 
 <br/>
 
-Setalah soal testnya dikirimkan ke email, saya baca-baca dulu dong ya testnya ini disuruh ngapain, ekspektasinya apaa, dan lain sebagainya. Setelah saya baca, saya gak langsung mengerkana wkwk(yaiiyalah udah sore menjelang malam soalnya, saya sudah malas untuk membuka laptop saat itu), jadi saya putuskan untuk mengerjakan testnya besok saja, toh juga 3 hari kan waktunya.
+Setalah soal testnya dikirimkan ke email, saya baca-baca dulu dong ya testnya ini disuruh ngapain, ekspektasinya apa, dan lain sebagainya. Setelah saya baca, saya tidak langsung mengerjakan wkwk(yaiyalah udah sore menjelang malam soalnya, saya sudah malas untuk membuka laptop saat itu), jadi saya putuskan untuk mengerjakan testnya besok saja, toh juga 3 hari kan waktunya.
 
 <br/>
 
-Singkat cerita, saya kerjakan testnya 2 hari kalau tidak salah, setelah saya review lagi dan saya anggap sudah lumayan oke, kemudian saya kirimkan saja dengan pede hasil project yang sudah saya kerjakan, bismillah, tinggal menunggu hasil saja. Kurang dari seminggu saya dihubungi lagi, bahwa saya lanjut ke tahap Interview dengan para engineer kece di eFishery, wuh mantap sekali dong ya.
+Singkat cerita, saya kerjakan testnya 2 hari kalau tidak salah, setelah saya review lagi dan saya anggap sudah lumayan oke, kemudian saya kirimkan saja dengan pede hasil project yang sudah saya kerjakan, bismillah tinggal menunggu hasil saja. Kurang dari seminggu saya dihubungi lagi, bahwa saya lanjut ke tahap Interview dengan para engineer kece di eFishery, wuh mantap sekali dong ya.
 
 <br/>
 
@@ -66,7 +66,7 @@ Di hari pertama saya bekerja di eFishery, saya tentu ikut onboarding dulu bersam
 
 <br>
 
-Saya rasa onboarding di eFishery sudah lumayan bagus ya, penjelasan dari team people dan manager juga sudah lumayan jelas, jadi saya bisa tahu apa saja yang perlu saya pelajari di awal. Mantap, semoga kedepannya onboardingnya bisa semakin mantap lagi.
+Saya rasa onboarding di eFishery sudah lumayan bagus ya, penjelasan dari team people dan manager juga sudah lumayan jelas, jadi saya bisa tahu apa saja yang perlu saya pelajari di awal. Mantap, semoga kedepan onboardingnya bisa semakin mantap lagi.
 
 <br/>
 
@@ -76,17 +76,17 @@ Salah satu hal baru yang saya pelajari di eFishery yang belum saya dapatkan di t
 
 <br/>
 
-Menurut saya pribadi ini keren sih, jadi sebelum mulai ngoding dan ngetik-ngetik kode program di teks editor, kita diminta mikir dulu tentang apa sih sebenarnya yang akan dikerjakan dan diselesaikan. Sebenarnya saya sudah sering mendenger istilah RFC ini di dunia open source, namun yang membuat saya kagus adalah, ini pertama kali saya tahu bahwa RFC bisa juga digunakan di perusahaan hehe.
+Menurut saya pribadi ini keren sih, jadi sebelum mulai ngoding dan ngetik-ngetik kode program di teks editor, kita diminta mikir dulu tentang apa sih sebenarnya yang akan dikerjakan dan diselesaikan. Sebenarnya saya sudah sering mendenger istilah RFC ini di dunia open source, namun yang membuat saya kagum adalah, ini pertama kali saya tahu bahwa RFC bisa juga digunakan di perusahaan hehe.
 
 <br/>
 
 <h3> Orang-orang di eFishery(ternyata) Ramah dan Baik-baik </h3>
 
-Salah satu dari banyak hal yang saya suka ketika bekerja di Efishery selama kurang lebih satu bulan ini adalah, orang-orang di eFishery ini baik dan ramah ya, jadi saya sebagai anak baru tidak telalu canggung jadinya ketika harus berkomunikasi dengan teman-teman efisherian lainnya.
+Salah satu dari banyak hal yang saya suka ketika bekerja di Efishery selama kurang lebih satu bulan ini adalah orang-orang di eFishery baik dan ramah ya, jadi saya sebagai anak baru tidak telalu canggung jadinya ketika harus berkomunikasi dengan teman-teman efisherian lainnya.
 
 <br/>
 
-Karena saya yakin, salah satu hal yang sangat penting di suatu perusahaan itu adalah tentang bagaimana kondisi lingkungan di dalam perusahaan tersebut. Bayangkan saja jika di suatu rumah tidak kondusif, bagaimana anak-anak dan orang di dalamnya bisa betah untuk berada di dalam rumah tersebut?
+Karena saya yakin salah satu hal yang sangat penting di suatu perusahaan itu adalah tentang bagaimana kondisi lingkungan di dalam perusahaan tersebut. Bayangkan saja jika di suatu rumah tidak kondusif, bagaimana anak-anak dan orang di dalamnya bisa betah untuk berada di dalam rumah tersebut?
 
 <br/>
 
