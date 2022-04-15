@@ -55,4 +55,4 @@ Terima kasih untuk yang sudah mau membaca tulisan ini sampai akhir.
 
 <br/><br/>
 
-Ditulis di suatu pulau yang indah dan dijuluki Pulau Seribu Masjid, Jum’at 13 Ramadhan, 1443 H.
+*Ditulis di suatu pulau yang indah dan dijuluki Pulau Seribu Masjid, Jum’at 13 Ramadhan, 1443 H.*
