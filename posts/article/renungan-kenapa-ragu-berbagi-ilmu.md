@@ -22,7 +22,7 @@ Saya tidak bisa membayangkan jika para Ulama, Ustadz, Guru, Dosen atau yang lain
 
 <br/>
 
-Apa jadinya dunia ini jika mereka tidak mau membagikan sedikit pengetahuan yang diberikan Allah padanya? Tentu semua orang akan tenggelam dalam gelapnya kehidupan. Tidak mengetaui mana yang baik dan mana yang buruk, tidak mengetahui suatu hukum dan ilmu pengetahuan.
+Apa jadinya dunia ini jika mereka tidak mau membagikan sedikit pengetahuan yang diberikan Allah padanya? Tentu semua orang akan tenggelam dalam gelapnya kehidupan. Tidak mengetahui mana yang baik dan mana yang buruk, tidak mengetahui suatu hukum dan tidak pula ilmu pengetahuan.
 
 <br/>
 
@@ -38,15 +38,18 @@ Bahagia jika melihat orang yang pernah kita bantu menjadi orang yang lebih baik 
 
 <br/>
 
-Sejatinya jika kita berbagi sedikit pengetahuan yg kita miliki ke orang lain maka ilmu kita tidak akan pernah berkurang sedikitpun, malah akan semakin bertambah. Maka dari itu jangan pernah takut dan ragu buat berbagi dengan orang lain ya.
+Sejatinya jika kita berbagi sedikit pengetahuan yg kita miliki ke orang lain maka ilmu kita tidak akan pernah berkurang sedikitpun, malah akan semakin bertambah. Maka dari itu jangan pernah takut dan ragu untuk berbagi dengan orang lain ya.
 
 <br/>
 
-Karena ketika kita berbagi atau membantu orang itu ada rasa senang atau kepuasan dalam hati. Apalagi jika melihat orang lain merasa terbantu dengan apa yang pernah kita bagikan, wah pasti tambah senang lah ya itu pasti hehe.
+Karena ketika kita berbagi atau membantu orang itu ada rasa senang atau kepuasan tersendiri dalam hati. Apalagi jika melihat orang lain merasa terbantu dengan apa yang pernah kita bagikan, wah pasti tambah senang lah ya itu pasti hehe.
 
 <br/>
 
 Jadi, mulai dari sekarang harapannya tidak ada lagi rasa takut untuk berbagi pengetahuan atau pegalaman yang kita punya ke orang lain lantaran hanya karena hal-hal yang tidak jelas asal-usulnya.
+
+<br/>
+
 Sekian, semoga tulisan singkat ini bisa bermanfaat terutama untuk diri saya sendiri dan teman-teman semua juga.
 
 <br/>
