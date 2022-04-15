@@ -1,6 +1,7 @@
 /* eslint-disable */
 export default [
   'renungan-kenapa-ragu-berbagi-ilmu',
+  'ketika-pemrogram-taaruf',
   'satu-bulan-di-efishery',
   'catatan-di-tahun-2021',
   'penat',
