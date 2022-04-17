@@ -10,7 +10,7 @@ Menulis tentang makanan di kala sedang berpuasa memang sangat menantang ya, tapi
 
 <br/>
 
-Berbicara tentang makanan sebenarnya tidak banyak yang bisa saya ceritakan, karena menurut saya semua makanan yang pernah saya makanan semuanya sangat berkesan. Namun, ada hal menarik yang ingin saya bagikan kepada teman-teman semua di tulisan kali ini.
+Berbicara tentang makanan sebenarnya tidak banyak yang bisa saya ceritakan, karena menurut saya semua makanan yang pernah saya makan semuanya sangat berkesan. Namun, ada hal menarik yang ingin saya bagikan kepada teman-teman semua di tulisan kali ini.
 
 <br/>
 
