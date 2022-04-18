@@ -1,5 +1,6 @@
 /* eslint-disable */
 export default [
+  'alhamdulillah-saya-gagal',
   'antara-aku-dan-makanan',
   'renungan-kenapa-ragu-berbagi-ilmu',
   'ketika-pemrogram-taaruf',
